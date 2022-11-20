@@ -73,7 +73,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
-      <h1>Bonnet Guilhèm tesssssssttttt</h1>
+      <h1>Bonnet Guilhèm</h1>
       <p>je suis <span class="typed" data-typed-items="Développeur VR, Chef de Projet, Développeur Unity, Développeur de jeux"></span></p>
     </div>
   </section><!-- End Hero -->
