@@ -537,14 +537,15 @@
 
         <div class="section-title">
           <h2>Hobbies</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
+          <h3>Quel est l'intérêt d'un hobbies ?</h3>
+          <p>Pour moi un hobbie me permet de montré se qui me passione et me fais avancé afin que l'on puisse plus facilement cerné mon fonctionnement et mon caractère. Je pense qu'il est plus simple de connaitre les goûts d'une personne pour pouvoir échanger avec elle. </p>  
+
+          </div>
         <!-- Carousel -->
         <div id="carouselHobbies" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselHobbies" data-slide-to="0" class="active"></li>
             <li data-target="#carouselHobbies" data-slide-to="1"></li>
-            <li data-target="#carouselHobbies" data-slide-to="2"></li>
           </ol>
 
           <div class="carousel-inner">
@@ -552,26 +553,24 @@
             <div class="carousel-item active">
               <div class="card-deck">
                 <div class="card">
-                  <img class="card-img-top" src="assets/img/chess.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="assets/img/chess.gif" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Stratégie</h5>
                     <p class="card-text">J'aime tout se qui nous demande d'élaborer une stratégie. Que sa soit dans le jeux vidéo ou dans la réalité. Ce que j'y apprécie le plus c'est de chercher différentes façons d'approche pour atteindre un objectif</p>
                   </div>
                 </div>
                 <div class="card">
-                  <img class="card-img-top" src="..." alt="Card image cap">
+                  <img class="card-img-top" src="assets/img/agile.gif" alt="Card image cap">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <h5 class="card-title">Management</h5>
+                    <p class="card-text">Depuis mon entrée dans le domaine professionnel j'ai découvert une passion pour le management. En effet le management est pour moi une considération de l'employé pour son travail se qui rime avec qualité de travail. Aujourd'hui je m'engage à faire tous mes projets dans de bonnes conditions permettant aux équipes de se sentir bien et nous permet de faire un travail de qualité</p>
                   </div>
                 </div>
                 <div class="card">
-                  <img class="card-img-top" src="..." alt="Card image cap">
+                  <img class="card-img-top" src="assets/img/gaming.gif" alt="Card image cap">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <h5 class="card-title">Gaming</h5>
+                    <p class="card-text">Passionné par le gaming, j'aime cette façon de créer un univers ludique dans lequel on peut s'immerger et s'y amuser. Tous les aspects que l'on peut y retrouver me fascine, que ça soit compétitif, coop, chill, contemplatif, ou bien encore immersif.</p>
                   </div>
                 </div>
               </div>
@@ -582,60 +581,29 @@
             <div class="carousel-item ">
               <div class="card-deck">
                 <div class="card">
-                  <img class="card-img-top" src="assets/img/chess.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="assets/img/dev.gif" alt="Card image cap">
                   <div class="card-body">
-                    <h5 class="card-title">Stratégie</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">Développement Divers</h5>
+                    <p class="card-text">Depuis que j'ai découvert le développement informatique, j'aime beaucoup la diversité des possibilité. J'adore explorer toutes les possibilités et essayé des choses jamais vus. J'aime découvrirs les nouvelles technologies comme les possibilités de l'IOT ou encore l'IA.</p>
                   </div>
                 </div>
                 <div class="card">
-                  <img class="card-img-top" src="..." alt="Card image cap">
+                  <img class="card-img-top" src="assets/img/jap.gif" alt="Card image cap">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <h5 class="card-title">Mangas - Animes</h5>
+                    <p class="card-text">Lecteur et viewer des productions japonaise ou webtoon, j'aime ces univers rempli d'histoires, même si je n'adères pas à tous les aspects de cette culture.</p>
                   </div>
                 </div>
                 <div class="card">
-                  <img class="card-img-top" src="..." alt="Card image cap">
+                  <img class="card-img-top" src="assets/img/voyage.gif" alt="Card image cap">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <h5 class="card-title">Voyages</h5>
+                    <p class="card-text">Je suis très ouvert et aime beaucoup apprendre l'histoire et la cultures du monde.</p>
                   </div>
                 </div>
               </div>
             </div>
 
-
-
-            <div class="carousel-item ">
-              <div class="card-deck">
-                <div class="card">
-                  <img class="card-img-top" src="assets/img/chess.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Stratégie</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="..." alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-                <div class="card">
-                  <img class="card-img-top" src="..." alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
 
           </div>
   
@@ -647,6 +615,7 @@
 
     
     <!-- ======= Contact Section ======= -->
+    <!-- 
     <section id="contact" class="contact">
       <div class="container">
 
@@ -693,8 +662,10 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
-
+    </section>
+    -->
+    <!-- End Contact Section -->
+  
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
