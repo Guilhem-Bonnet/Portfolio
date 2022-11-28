@@ -61,7 +61,7 @@
           <li><a href="#competences"><i class="bx bx-book-content"></i>compétences</a></li>
           <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resumé</span></a></li>
           <!--<li><a href="#services"><i class="bx bx-server"></i> gestion_projet</a></li>-->
-          <li><a href="#contact"><i class="bx bx-envelope"></i>Contact</a></li>
+          <!-- <li><a href="#contact"><i class="bx bx-envelope"></i>Contact</a></li> -->
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -73,7 +73,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
-      <h1>Bonnet Guilhèm test</h1>
+      <h1>Bonnet Guilhèm</h1>
       <p>je suis <span class="typed" data-typed-items="Développeur VR, Chef de Projet, Développeur Unity, Développeur de jeux"></span></p>
     </div>
   </section><!-- End Hero -->
@@ -270,6 +270,12 @@
                         <ul>
                             <li>
                               OpenXR
+                            </li>
+                            <li>
+                              SteamVR
+                            </li>
+                            <li>
+                              XR Interaction ToolKit
                             </li>
                         </ul>
                 </ul>
@@ -556,14 +562,14 @@
                   <img class="card-img-top" src="assets/img/chess.gif" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Stratégie</h5>
-                    <p class="card-text">J'aime tout se qui nous demande d'élaborer une stratégie. Que sa soit dans le jeux vidéo ou dans la réalité. Ce que j'y apprécie le plus c'est de chercher différentes façons d'approche pour atteindre un objectif</p>
+                    <p class="card-text">J'aime tout ce qui nous demande d'élaborer une stratégie. Que ça soit dans le jeu vidéo ou dans la réalité. Ce que j'y apprécie le plus c'est de chercher différentes façons d'approche pour atteindre un objectif</p>
                   </div>
                 </div>
                 <div class="card">
                   <img class="card-img-top" src="assets/img/agile.gif" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Management</h5>
-                    <p class="card-text">Depuis mon entrée dans le domaine professionnel j'ai découvert une passion pour le management. En effet le management est pour moi une considération de l'employé pour son travail se qui rime avec qualité de travail. Aujourd'hui je m'engage à faire tous mes projets dans de bonnes conditions permettant aux équipes de se sentir bien et nous permet de faire un travail de qualité</p>
+                    <p class="card-text">Depuis mon entrée dans le domaine professionnel j'ai découvert une passion pour le management. En effet le management est pour moi une considération de l'employé pour son travail se qui rime avec qualité de travail. Aujourd'hui je m'engage à faire tous mes projets dans de bonnes conditions permettant aux équipes de se sentir bien et nous permet d’effectuer un travail de qualité</p>
                   </div>
                 </div>
                 <div class="card">
@@ -584,21 +590,21 @@
                   <img class="card-img-top" src="assets/img/dev.gif" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Développement Divers</h5>
-                    <p class="card-text">Depuis que j'ai découvert le développement informatique, j'aime beaucoup la diversité des possibilité. J'adore explorer toutes les possibilités et essayé des choses jamais vus. J'aime découvrirs les nouvelles technologies comme les possibilités de l'IOT ou encore l'IA.</p>
+                    <p class="card-text">Depuis que j'ai découvert le développement informatique, j'aime beaucoup la diversité des possibilités. J'adore explorer toutes les possibilités et essayé des choses jamais vus. J'aime découvrir les nouvelles technologies comme les possibilités de l'IOT ou encore l'IA.</p>
                   </div>
                 </div>
                 <div class="card">
                   <img class="card-img-top" src="assets/img/jap.gif" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Mangas - Animes</h5>
-                    <p class="card-text">Lecteur et viewer des productions japonaise ou webtoon, j'aime ces univers rempli d'histoires, même si je n'adères pas à tous les aspects de cette culture.</p>
+                    <p class="card-text">Lecteur et viewer des productions japonaise ou webtoon, j'aime ces univers remplis d'histoires, même si je n’adhère pas à tous les aspects de cette culture.</p>
                   </div>
                 </div>
                 <div class="card">
                   <img class="card-img-top" src="assets/img/voyage.gif" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Voyages</h5>
-                    <p class="card-text">Je suis très ouvert et aime beaucoup apprendre l'histoire et la cultures du monde.</p>
+                    <p class="card-text">Je suis très ouvert et aime beaucoup apprendre l'histoire et la culture du monde.</p>
                   </div>
                 </div>
               </div>
