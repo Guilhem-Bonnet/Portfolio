@@ -544,7 +544,7 @@
         <div class="section-title">
           <h2>Hobbies</h2>
           <h3>Quel est l'intérêt d'un hobbies ?</h3>
-          <p>Pour moi un hobbie me permet de montré se qui me passione et me fais avancé afin que l'on puisse plus facilement cerné mon fonctionnement et mon caractère. Je pense qu'il est plus simple de connaitre les goûts d'une personne pour pouvoir échanger avec elle. </p>  
+          <p>Pour moi un hobby me permet de montrer ce qui me passionne et me fais avancer afin que l'on puisse plus facilement cerner mon fonctionnement et mon caractère. Je pense qu'il est plus simple de connaitre les goûts d'une personne pour pouvoir échanger avec elle. </p>  
 
           </div>
         <!-- Carousel -->
