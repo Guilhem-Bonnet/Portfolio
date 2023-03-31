@@ -50,7 +50,8 @@
         <img src="assets/img/profile-img.jpg" alt="" class="img-profil">
         <h1 class="text-light"><a href="index.html">Guilhèm Bonnet</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="https://www.linkedin.com/in/guilh%C3%A8m-bonnet-91a710177" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.linkedin.com/in/guilh%C3%A8m-bonnet-91a710177" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/Guilhem-Bonnet" target="_blank" class="github"><i class="bx bxl-github"></i></a>
         </div>
       </div>
 
@@ -103,7 +104,7 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Naissance:</strong> 09 Septembre 1998</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Naissance:</strong> 30 Septembre 1998</li>
                   <!--<li><i class="icofont-rounded-right"></i> <strong>Site Web:</strong> www.example.com</li>-->
                   <li><i class="icofont-rounded-right"></i> <strong>Ville:</strong> Tarbes : France</li>
                 </ul>
@@ -136,6 +137,57 @@
       document.getElementById('myAge').innerHTML = Math.abs(age.getUTCFullYear() - 1970);
       
     </script>
+
+<!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-game">Game</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+        <?php
+
+        // Lire le contenu du fichier JSON
+        $jsonData = file_get_contents("donnees.json");
+
+        // Convertir le JSON en tableau associatif PHP
+        $data = json_decode($jsonData, true);
+
+        // Parcourir le tableau et afficher les données
+        foreach($data["portfolio"] as $item) {
+          echo '<div class="col-lg-4 col-md-6 portfolio-item filter-' . $item["filter"] . '">';
+          echo '<div class="portfolio-wrap">';
+          echo '<img src="' . $item["imgSrc"] . '" class="img-fluid" alt="' . $item["imgAlt"] . '">';
+          echo '<div class="portfolio-links">';
+          echo '<a href="' . $item["venoboxHref"] . '" data-gall="' . $item["venoboxDataGall"] . '" class="venobox" title="' . $item["venoboxTitle"] . '"><i class="bx bx-plus"></i></a>';
+          echo '<a href="' . $item["linkHref"] . '" title="' . $item["linkTitle"] . '"><i class="bx bx-link"></i></a>';
+          echo '</div>';
+          echo '</div>';
+          echo '</div>';
+        }
+
+      ?>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
 
 <!-- ======= compétences Section ======= -->
 <section id="competences" class="competences">
@@ -557,26 +609,26 @@
           <div class="carousel-inner">
 
             <div class="carousel-item active">
-              <div class="card-deck">
-                <div class="card">
-                  <img class="card-img-top" src="assets/img/chess.gif" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Stratégie</h5>
-                    <p class="card-text">J'aime tout ce qui nous demande d'élaborer une stratégie. Que ça soit dans le jeu vidéo ou dans la réalité. Ce que j'y apprécie le plus c'est de chercher différentes façons d'approche pour atteindre un objectif</p>
+              <div class="game-deck">
+                <div class="game">
+                  <img class="game-img-top" src="assets/img/chess.gif" alt="game image cap">
+                  <div class="game-body">
+                    <h5 class="game-title">Stratégie</h5>
+                    <p class="game-text">J'aime tout ce qui nous demande d'élaborer une stratégie. Que ça soit dans le jeu vidéo ou dans la réalité. Ce que j'y apprécie le plus c'est de chercher différentes façons d'approche pour atteindre un objectif</p>
                   </div>
                 </div>
-                <div class="card">
-                  <img class="card-img-top" src="assets/img/agile.gif" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Management</h5>
-                    <p class="card-text">Depuis mon entrée dans le domaine professionnel j'ai découvert une passion pour le management. En effet le management est pour moi une considération de l'employé pour son travail se qui rime avec qualité de travail. Aujourd'hui je m'engage à faire tous mes projets dans de bonnes conditions permettant aux équipes de se sentir bien et nous permet d’effectuer un travail de qualité</p>
+                <div class="game">
+                  <img class="game-img-top" src="assets/img/agile.gif" alt="game image cap">
+                  <div class="game-body">
+                    <h5 class="game-title">Management</h5>
+                    <p class="game-text">Depuis mon entrée dans le domaine professionnel j'ai découvert une passion pour le management. En effet le management est pour moi une considération de l'employé pour son travail se qui rime avec qualité de travail. Aujourd'hui je m'engage à faire tous mes projets dans de bonnes conditions permettant aux équipes de se sentir bien et nous permet d’effectuer un travail de qualité</p>
                   </div>
                 </div>
-                <div class="card">
-                  <img class="card-img-top" src="assets/img/gaming.gif" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Gaming</h5>
-                    <p class="card-text">Passionné par le gaming, j'aime cette façon de créer un univers ludique dans lequel on peut s'immerger et s'y amuser. Tous les aspects que l'on peut y retrouver me fascine, que ça soit compétitif, coop, chill, contemplatif, ou bien encore immersif.</p>
+                <div class="game">
+                  <img class="game-img-top" src="assets/img/gaming.gif" alt="game image cap">
+                  <div class="game-body">
+                    <h5 class="game-title">Gaming</h5>
+                    <p class="game-text">Passionné par le gaming, j'aime cette façon de créer un univers ludique dans lequel on peut s'immerger et s'y amuser. Tous les aspects que l'on peut y retrouver me fascine, que ça soit compétitif, coop, chill, contemplatif, ou bien encore immersif.</p>
                   </div>
                 </div>
               </div>
@@ -585,26 +637,26 @@
             
 
             <div class="carousel-item ">
-              <div class="card-deck">
-                <div class="card">
-                  <img class="card-img-top" src="assets/img/dev.gif" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Développement Divers</h5>
-                    <p class="card-text">Depuis que j'ai découvert le développement informatique, j'aime beaucoup la diversité des possibilités. J'adore explorer toutes les possibilités et essayé des choses jamais vus. J'aime découvrir les nouvelles technologies comme les possibilités de l'IOT ou encore l'IA.</p>
+              <div class="game-deck">
+                <div class="game">
+                  <img class="game-img-top" src="assets/img/dev.gif" alt="game image cap">
+                  <div class="game-body">
+                    <h5 class="game-title">Développement Divers</h5>
+                    <p class="game-text">Depuis que j'ai découvert le développement informatique, j'aime beaucoup la diversité des possibilités. J'adore explorer toutes les possibilités et essayé des choses jamais vus. J'aime découvrir les nouvelles technologies comme les possibilités de l'IOT ou encore l'IA.</p>
                   </div>
                 </div>
-                <div class="card">
-                  <img class="card-img-top" src="assets/img/jap.gif" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Mangas - Animes</h5>
-                    <p class="card-text">Lecteur et viewer des productions japonaise ou webtoon, j'aime ces univers remplis d'histoires, même si je n’adhère pas à tous les aspects de cette culture.</p>
+                <div class="game">
+                  <img class="game-img-top" src="assets/img/jap.gif" alt="game image cap">
+                  <div class="game-body">
+                    <h5 class="game-title">Mangas - Animes</h5>
+                    <p class="game-text">Lecteur et viewer des productions japonaise ou webtoon, j'aime ces univers remplis d'histoires, même si je n’adhère pas à tous les aspects de cette culture.</p>
                   </div>
                 </div>
-                <div class="card">
-                  <img class="card-img-top" src="assets/img/voyage.gif" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Voyages</h5>
-                    <p class="card-text">Je suis très ouvert et aime beaucoup apprendre l'histoire et la culture du monde.</p>
+                <div class="game">
+                  <img class="game-img-top" src="assets/img/voyage.gif" alt="game image cap">
+                  <div class="game-body">
+                    <h5 class="game-title">Voyages</h5>
+                    <p class="game-text">Je suis très ouvert et aime beaucoup apprendre l'histoire et la culture du monde.</p>
                   </div>
                 </div>
               </div>
