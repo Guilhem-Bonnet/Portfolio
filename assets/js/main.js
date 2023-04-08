@@ -20,6 +20,7 @@
     });
   }
 
+  
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .scrollto', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -158,10 +159,14 @@
 
   // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
-    autoplay: true,
+    autoplay: false,
+    video:true,
     dots: true,
     loop: true,
+    lazyLoad:true,
+    center:true,
     items: 1
+    
   });
 
   // Initi AOS
@@ -169,5 +174,38 @@
     duration: 1000,
     easing: "ease-in-out-back"
   });
+
+  /*jQuery(document).ready(function() {
+    // Stockez la référence de l'élément '.carousel'
+    var $carousel = $('.owl-carousel');
+
+    // Utilisez la délégation d'événements pour l'écouteur de clic sur ".venobox"
+    $(document).on('click', '.venobox', function() {
+    // Activez Venobox sur l'élément cliqué
+    $(this).venobox();
+
+    // Chargez dynamiquement les autres éléments dans un carousel
+    $('.venobox').not(this).each(function() {
+        var src = $(this).find('img').attr('src');
+        $carousel.owlCarousel('add', '<div><img src="' + src + '"></div>').owlCarousel('update');
+        $carousel.owlCarousel('add', '<div><img src="assets/img/chess.gif"></div>').owlCarousel('update');
+        $carousel.owlCarousel('add', '<div><img src="assets/img/chess.gif"></div>').owlCarousel('update');
+    });
+
+    // Affichez le carousel
+    $carousel.show();
+    });
+
+    // Initialisez le carousel avec Owl Carousel
+    $carousel.owlCarousel({
+    items: 3,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    nav: false,
+    dots: true
+    });
+    
+  });
+  */
 
 })(jQuery);

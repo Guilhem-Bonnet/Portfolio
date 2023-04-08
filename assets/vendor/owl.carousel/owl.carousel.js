@@ -2242,7 +2242,7 @@
 	 * @public
 	 */
 	Video.Defaults = {
-		video: false,
+		video: true,
 		videoHeight: false,
 		videoWidth: false
 	};

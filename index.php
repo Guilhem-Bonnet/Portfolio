@@ -21,14 +21,15 @@
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- ow carousel -->
+  <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/resume.min.css" rel="stylesheet">
-  <script src="my-main.js" async></script>
+  <script src="assets/js/my-main.js" async></script>
   <!-- =======================================================
   * Template Name: iPortfolio - v1.2.1
   * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
@@ -43,33 +44,10 @@
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
   <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-profil">
-        <h1 class="text-light"><a href="index.html">Guilhèm Bonnet</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://www.linkedin.com/in/guilh%C3%A8m-bonnet-91a710177" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://github.com/Guilhem-Bonnet" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-        </div>
-      </div>
-
-      <nav class="nav-menu">
-        <ul>
-          <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about"><i class="bx bx-user"></i> <span>À propos</span></a></li>
-          <li><a href="#competences"><i class="bx bx-book-content"></i>compétences</a></li>
-          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resumé</span></a></li>
-          <!--<li><a href="#services"><i class="bx bx-server"></i> gestion_projet</a></li>-->
-          <!-- <li><a href="#contact"><i class="bx bx-envelope"></i>Contact</a></li> -->
-
-        </ul>
-      </nav><!-- .nav-menu -->
-      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-
-    </div>
-  </header><!-- End Header -->
+  <?php
+  require 'header.html';
+  ?>
+  <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
@@ -106,7 +84,7 @@
                 <ul>
                   <li><i class="icofont-rounded-right"></i> <strong>Naissance:</strong> 30 Septembre 1998</li>
                   <!--<li><i class="icofont-rounded-right"></i> <strong>Site Web:</strong> www.example.com</li>-->
-                  <li><i class="icofont-rounded-right"></i> <strong>Ville:</strong> Tarbes : France</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Ville:</strong> Toulouse : France</li>
                 </ul>
               </div>
               <div class="col-lg-6">
@@ -150,6 +128,7 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-vr">Vr</li>
               <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-game">Game</li>
               <li data-filter=".filter-web">Web</li>
@@ -159,7 +138,7 @@
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-        <?php
+      <?php
 
         // Lire le contenu du fichier JSON
         $jsonData = file_get_contents("donnees.json");
@@ -172,16 +151,18 @@
           echo '<div class="col-lg-4 col-md-6 portfolio-item filter-' . $item["filter"] . '">';
           echo '<div class="portfolio-wrap">';
           echo '<img src="' . $item["imgSrc"] . '" class="img-fluid" alt="' . $item["imgAlt"] . '">';
+          echo '<div class="portfolio-info">';
+          echo'<h4>'.$item["id"].' </h4><p>'.$item["infos"].' </p>';
           echo '<div class="portfolio-links">';
-          echo '<a href="' . $item["venoboxHref"] . '" data-gall="' . $item["venoboxDataGall"] . '" class="venobox" title="' . $item["venoboxTitle"] . '"><i class="bx bx-plus"></i></a>';
-          echo '<a href="' . $item["linkHref"] . '" title="' . $item["linkTitle"] . '"><i class="bx bx-link"></i></a>';
+          echo '<a href="' . $item["linkHref"] . '?element=' . $item["id"]. '" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="' . $item["linkTitle"] . '"><i class="bx bx-plus"></i></a>';
+          echo '</div>';
           echo '</div>';
           echo '</div>';
           echo '</div>';
         }
 
       ?>
-
+      
 
         </div>
 
@@ -193,7 +174,7 @@
 <section id="competences" class="competences">
   <div class="container  ">
     <div class="section-title">
-      <h2>compétences</h2>
+      <h2>Compétences</h2>
     </div>
     <div class="competences-title-white competences-title-section competences-box " >
       <h2>HARD SKILLS</h2>
@@ -609,26 +590,26 @@
           <div class="carousel-inner">
 
             <div class="carousel-item active">
-              <div class="game-deck">
-                <div class="game">
-                  <img class="game-img-top" src="assets/img/chess.gif" alt="game image cap">
-                  <div class="game-body">
-                    <h5 class="game-title">Stratégie</h5>
-                    <p class="game-text">J'aime tout ce qui nous demande d'élaborer une stratégie. Que ça soit dans le jeu vidéo ou dans la réalité. Ce que j'y apprécie le plus c'est de chercher différentes façons d'approche pour atteindre un objectif</p>
+              <div class="card-deck">
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/chess.gif" alt="game image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Stratégie</h5>
+                    <p class="card-text">J'aime tout ce qui nous demande d'élaborer une stratégie. Que ça soit dans le jeu vidéo ou dans la réalité. Ce que j'y apprécie le plus c'est de chercher différentes façons d'approche pour atteindre un objectif</p>
                   </div>
                 </div>
-                <div class="game">
-                  <img class="game-img-top" src="assets/img/agile.gif" alt="game image cap">
-                  <div class="game-body">
-                    <h5 class="game-title">Management</h5>
-                    <p class="game-text">Depuis mon entrée dans le domaine professionnel j'ai découvert une passion pour le management. En effet le management est pour moi une considération de l'employé pour son travail se qui rime avec qualité de travail. Aujourd'hui je m'engage à faire tous mes projets dans de bonnes conditions permettant aux équipes de se sentir bien et nous permet d’effectuer un travail de qualité</p>
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/agile.gif" alt="game image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Management</h5>
+                    <p class="card-text">Depuis mon entrée dans le domaine professionnel j'ai découvert une passion pour le management. En effet le management est pour moi une considération de l'employé pour son travail se qui rime avec qualité de travail. Aujourd'hui je m'engage à faire tous mes projets dans de bonnes conditions permettant aux équipes de se sentir bien et nous permet d’effectuer un travail de qualité</p>
                   </div>
                 </div>
-                <div class="game">
-                  <img class="game-img-top" src="assets/img/gaming.gif" alt="game image cap">
-                  <div class="game-body">
-                    <h5 class="game-title">Gaming</h5>
-                    <p class="game-text">Passionné par le gaming, j'aime cette façon de créer un univers ludique dans lequel on peut s'immerger et s'y amuser. Tous les aspects que l'on peut y retrouver me fascine, que ça soit compétitif, coop, chill, contemplatif, ou bien encore immersif.</p>
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/gaming.gif" alt="game image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Gaming</h5>
+                    <p class="card-text">Passionné par le gaming, j'aime cette façon de créer un univers ludique dans lequel on peut s'immerger et s'y amuser. Tous les aspects que l'on peut y retrouver me fascine, que ça soit compétitif, coop, chill, contemplatif, ou bien encore immersif.</p>
                   </div>
                 </div>
               </div>
@@ -637,26 +618,26 @@
             
 
             <div class="carousel-item ">
-              <div class="game-deck">
-                <div class="game">
-                  <img class="game-img-top" src="assets/img/dev.gif" alt="game image cap">
-                  <div class="game-body">
-                    <h5 class="game-title">Développement Divers</h5>
-                    <p class="game-text">Depuis que j'ai découvert le développement informatique, j'aime beaucoup la diversité des possibilités. J'adore explorer toutes les possibilités et essayé des choses jamais vus. J'aime découvrir les nouvelles technologies comme les possibilités de l'IOT ou encore l'IA.</p>
+              <div class="card-deck">
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/dev.gif" alt="game image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Développement Divers</h5>
+                    <p class="card-text">Depuis que j'ai découvert le développement informatique, j'aime beaucoup la diversité des possibilités. J'adore explorer toutes les possibilités et essayé des choses jamais vus. J'aime découvrir les nouvelles technologies comme les possibilités de l'IOT ou encore l'IA.</p>
                   </div>
                 </div>
-                <div class="game">
-                  <img class="game-img-top" src="assets/img/jap.gif" alt="game image cap">
-                  <div class="game-body">
-                    <h5 class="game-title">Mangas - Animes</h5>
-                    <p class="game-text">Lecteur et viewer des productions japonaise ou webtoon, j'aime ces univers remplis d'histoires, même si je n’adhère pas à tous les aspects de cette culture.</p>
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/jap.gif" alt="game image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Mangas - Animes</h5>
+                    <p class="card-text">Lecteur et viewer des productions japonaise ou webtoon, j'aime ces univers remplis d'histoires, même si je n’adhère pas à tous les aspects de cette culture.</p>
                   </div>
                 </div>
-                <div class="game">
-                  <img class="game-img-top" src="assets/img/voyage.gif" alt="game image cap">
-                  <div class="game-body">
-                    <h5 class="game-title">Voyages</h5>
-                    <p class="game-text">Je suis très ouvert et aime beaucoup apprendre l'histoire et la culture du monde.</p>
+                <div class="card">
+                  <img class="card-img-top" src="assets/img/voyage.gif" alt="game image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Voyages</h5>
+                    <p class="card-text">Je suis très ouvert et aime beaucoup apprendre l'histoire et la culture du monde.</p>
                   </div>
                 </div>
               </div>
@@ -727,16 +708,13 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright 2022. Tous droits réservés  <strong><span>M. Bonnet Guilhèm</span></strong>
-      </div>
-      
-    </div>
-  </footer><!-- End  Footer -->
+  <?php
+  require 'footer.php';
+  ?>
+<!-- End  Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -747,12 +725,18 @@
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
 
+  <!--owl carousel default naviguation-->
+
+  <script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+
+
+
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  
 
 </body>
 
