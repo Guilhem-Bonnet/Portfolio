@@ -185,7 +185,8 @@
               "img": "assets/img/portfolio/Sysmotruck/sysmotruckVisiteur2.jpg",
               "img1": "assets/img/portfolio/Sysmotruck/image_002_0029.jpg",
               "img2": "assets/img/portfolio/Sysmotruck/image_003_0037.jpg",
-              "img3": "assets/img/portfolio/Sysmotruck/sysmotruckMachine.jpg"
+              "img3": "assets/img/portfolio/Sysmotruck/sysmotruckMachine.jpg",
+              "video":"https://www.youtube.com/embed/1t-Cjn1LHiY"
               
             },
           "description": "J'ai eu l'opportunité de travailler sur le projet de la Maison de la Connaissance du Risque Sismique à Lourdes, où j'ai ajouté un aspect VR au simulateur sismique déjà en place. En tant que responsable du projet, j'ai créé trois scénarios de séismes différents, chacun avec une intensité distincte, en réponse aux besoins de nos clients.<br/><br/>Pour synchroniser les séismes virtuels avec l'application VR, nous avons développé une page web qui communique avec la machine. J'ai formé le personnel pour leur permettre d'être autonomes pendant les visites et de gérer les incidents, et j'ai également rédigé une documentation pour les accompagner.<br/><br/>Le projet VR a été réalisé sur Unity, ce qui m'a permis d'apprendre à gérer et optimiser un projet en HDRP tout en conservant des aspects visuels agréables comme les halos de lumière et la gestion des ombres. J'ai également découvert le plugin de destruction Rayfire pour Unity et la synchronisation des animations et des sons avec la timeline.<br/><br/>Les défis les plus importants ont été la synchronisation des applications pour éviter tout décalage susceptible d'affecter l'expérience, ainsi que l'optimisation de l'application pour les bâtiments destructibles en VR, notamment avec des lumières HDRP qui consomment beaucoup de ressources.<br/><br/>Bien que l'expérience ait pu \"secouer\" les visiteurs, nous avons reçu des retours positifs sur l'expérience immersive.",
