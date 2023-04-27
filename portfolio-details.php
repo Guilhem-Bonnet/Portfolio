@@ -253,7 +253,7 @@ if ($descriptionUrl!=null){
               
               echo strip_tags($description, '<p><br><b><i><u><strong><em><ul><ol><li><a><img><blockquote><pre><code><h1><h2><h3><h4><h5><h6><hr>'); // affiche le contenu de $description dans un paragraphe
             } else {
-              echo '<p>' . htmlspecialchars($description) . '</p>'; // ajoute des balises <p> autour du contenu de $description
+              echo '<p>' . strip_tags($description, '<br>') . '</p>'; // ajoute des balises <p> autour du contenu de $description
             }
 
           }
