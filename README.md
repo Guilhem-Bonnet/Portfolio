@@ -1,5 +1,5 @@
 # Portfolio
-Ce projet est mon portfolio en ligne, présentant mes compétences, mes projets et mes coordonnées de contact. Vous pouvez le visiter [ici]([http](https://srvdreamer.fr/index.php)).
+Ce projet est mon portfolio en ligne, présentant mes compétences, mes projets et mes coordonnées de contact. Vous pouvez le visiter [Lien]([http](https://srvdreamer.fr/index.php)"ici").
 
 # Fonctionnalités
 - Présentation de mes compétences et expériences professionnelles.
