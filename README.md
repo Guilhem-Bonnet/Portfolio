@@ -1,43 +1,86 @@
 # Portfolio
-Portfolio est un dépôt GitHub contenant le code source du portfolio en ligne de Guilhem Bonnet. Le portfolio est développé en HTML, CSS et JavaScript.
+Ce projet est mon portfolio en ligne, présentant mes compétences, mes projets et mes coordonnées de contact. Vous pouvez le visiter ici.
+
+# Fonctionnalités
+- Présentation de mes compétences et expériences professionnelles.
+- Présentation de mes projets, avec des images et des descriptions détaillées.
+
+Technologies utilisées
+- HTML, CSS, JavaScript, PHP
+- Node.js pour les dépendances
 
 # Installation
 Pour installer le portfolio en local, vous pouvez cloner le dépôt en utilisant la commande suivante :
-
+1. Clonez le repository sur votre machine locale en exécutant 
 ```bash
 git clone https://github.com/Guilhem-Bonnet/Portfolio.git
 ```
-# Utilisation
-Pour utiliser le portfolio, vous pouvez ouvrir le fichier **index.html** dans votre navigateur web.
+2. Assurez-vous que vous avez **npm** et **Node.js** installés sur votre machine.
+3. Exécutez **npm install** pour installer les dépendances.
+4. Ouvrez **index.php** dans votre navigateur.
 
 # Structure du projet
 Le projet est organisé de la manière suivante :
 
 ```css
 
-├── css/
-│   ├── main.css
-│   └── normalize.css
-├── img/
-│   ├── background.jpg
-│   ├── project-1.jpg
-│   └── ...
-├── js/
-│   ├── main.js
-│   └── vendor/
+
+├── assets/
+│   ├── content/
+│   │   ├── details/
+│   │   │   ├── project1/
+│   │   │   │   ├── img/
+│   │   │   │   ├── file_detail.txt
+│   │   │   │   └── ...
+│   │   │   ├── project2/
+│   │   │   └── ...
+│   │   └── ...
+│   ├── scss/
+│   ├── vendor/
+|   ├── css/
+│        ├── main.css
+│        └── normalize.css
+|   ├──img/
+│       ├── background.jpg
+│       ├── project-1.jpg
+│       └── ...
+│   └── js/
+│       ├── main.js
+│       └── vendor/
 │       ├── jquery-3.6.0.min.js
 │       └── ...
-├── projects/
-│   ├── project-1/
-│   │   ├── img/
-│   │   ├── index.html
-│   │   └── ...
-│   ├── project-2/
-│   └── ...
-├── index.html
-└── ...
+
+├── forms/
+├── node_modules/
+├── vendor/
+├── index.php
+├── donnees.json
+├── error.php
+├── footer.php
+├── header.html
+├── package.json
+└── package-lock.json
+
 ```
-Le dossier **css** contient les fichiers **CSS**, le dossier **js** contient les fichiers **JavaScript** et le dossier **img** contient les **images** utilisées dans le portfolio. Le dossier **projects** contient les sous-dossiers correspondant à chaque projet présenté dans le portfolio.
+**assets**: contient les fichiers CSS, JS, SCSS, les images, les fichiers de contenu et les fichiers de détails de projet.
+
+**forms**: contient le fichier PHP pour le formulaire de contact.
+
+**node_modules**: contient les dépendances de Node.js.
+
+**vendor**: contient les dépendances tierces.
+
+**donnees.json**: contient les données des projets.
+
+**error.php**: page d'erreur personnalisée.
+
+**footer.php**: pied de page personnalisé.
+
+**index.php**: page d'accueil du site.
+
+**package.json**: contient les informations de dépendance de Node.js.
+
+**package-lock.json**: verrouillage de version de dépendance de Node.js.
 
 # Contributions
 Les contributions sont les bienvenues ! Si vous souhaitez contribuer au projet, vous pouvez ouvrir une issue ou une pull request sur le dépôt GitHub.
