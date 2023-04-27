@@ -540,6 +540,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
+  padding: 15px;
   opacity: 0;
   position: absolute;
   top: 0;

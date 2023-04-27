@@ -36,7 +36,7 @@ try {
 
   if (!empty($elements)) {
     $element = $elements[0];
-    $description = $element["description"];
+    $descriptionUrl = $element["descriptionUrlText"];
     $projectUrl = $element["projectUrl"] ?? null;
     $client = $element["client"] ?? null;
     $projectDate = $element["projectDate"] ?? null;
@@ -65,6 +65,12 @@ try {
   // Rediriger vers la page d'erreur avec le message d'erreur
   header("Location: error.php?message=" . urlencode($e->getMessage()));
   exit;
+}
+
+$description;
+if ($descriptionUrl!=null){
+  //lis le fichié txt
+  $description=file_get_contents($descriptionUrl);
 }
 
 ?>
@@ -136,7 +142,7 @@ try {
           <?php
           echo '<h2>'.$projectName.' Details</h2>';
           echo '<ol>';
-            echo '<li><a href="index.php">Home</a></li>';
+            echo '<li><a href="index.php#portfolio">Home</a></li>';
             echo '<li>'.$projectName.' Details</li>';
           ?>
             </ol>
@@ -188,17 +194,17 @@ try {
                 </div>
               <?php endif; ?>
 
-              <li><strong>Category</strong>: <?= $category ?></li>
+              <li><strong>Categorie</strong>: <?= $category ?></li>
 
               <?php if (!empty($client)): ?>
                   <li><strong>Client</strong>: <?= $client ?></li>
               <?php endif; ?>
 
-              <li><strong>Project date</strong>: <?= $projectDate ?></li>
+              <li><strong>Date du projet</strong>: <?= $projectDate ?></li>
 
               <?php if (!empty($projectUrl)): ?>
                   <?php $displayUrl = strlen($projectUrl) > 30 ? substr($projectUrl, 0, 30) . "..." : $projectUrl; ?>
-                  <li><strong>Project URL</strong>: <a href="<?= $projectUrl ?>" target="_blank"><?= $displayUrl ?></a></li>
+                  <li><strong>URL du projet</strong>: <a href="<?= $projectUrl ?>" target="_blank"><?= $displayUrl ?></a></li>
               <?php endif; ?>
 
 
@@ -238,9 +244,21 @@ try {
             </div>
           </div>
 
-          <h2><?= $projectName ?> description</h2>
-          <p><?= $description ?></p>
+          <h2><?= $projectName ?> </h2>
+
           <?php
+          if (!empty($description)){
+              
+            if (strpos($description, '<') === 0) { //vérifie si le texte est balisé ou non
+              
+              echo strip_tags($description, '<p><br><b><i><u><strong><em><ul><ol><li><a><img><blockquote><pre><code><h1><h2><h3><h4><h5><h6><hr>'); // affiche le contenu de $description dans un paragraphe
+            } else {
+              echo '<p>' . htmlspecialchars($description) . '</p>'; // ajoute des balises <p> autour du contenu de $description
+            }
+
+          }
+          
+
           if(!empty($articles)){
             echo"<h2>Articles</h2>";
             foreach($element["articles"] as $key => $value){

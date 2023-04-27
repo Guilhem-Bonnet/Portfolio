@@ -1,0 +1,10 @@
+Durant mon alternance, j'ai travaillé sur un projet innovant pour la centrale hydroélectrique de Pragnères.
+Nous avons proposé une nouvelle manière de visiter la centrale en ajoutant la réalité virtuelle, offrant aux visiteurs la possibilité de découvrir des éléments inaccessibles jusqu'alors, tels que la montée au sommet du P1700 offrant une vue panoramique époustouflante sur les montagnes, ou encore l'exploration du système de galeries souterraines grâce à une carte interactive. 
+<br/><br/>
+Nous avons créé deux expériences différentes : une autonome avec des casques Pino Neo 1 et 2, et une autre version plus longue avec des casques VR reliés à des PC. La première étape était de faire fonctionner l'application en boucle sans défaillance sur les casques autonomes, en résolvant les problèmes liés au lancement simultané pour les groupes de visiteurs. Nous avons finalement choisi l'autonomie pour faciliter la gestion et réduire les problèmes.
+<br/><br/>
+L'application elle-même était complexe à réaliser, car nous n'avions pas de personnel formé à la 3D dédié sur le projet, ce qui a rendu l'optimisation difficile. Cependant, grâce à cette expérience, la centrale hydroélectrique de Pragnères a vu augmenter le nombre de visiteurs, et a pu créer un circuit de visite payant, permettant à EDF de faire des bénéfices tout en plongeant les visiteurs dans l'histoire fascinante de la centrale.
+<br/><br/>
+Nous avons conçu cette expérience pour le grand public, en veillant à ce qu'il n'y ait aucun risque de malaise, de frayeur ou d'accident lié aux déplacements virtuels. Des scènes vertigineuses peuvent être proposées aux utilisateurs, mais seulement s'ils le souhaitent, et les expériences sont sécurisées par des rampes de sécurité pour éviter tout risque.
+<br/><br/>
+Ce projet a été une expérience passionnante et innovante pour moi, qui m'a permis d'acquérir de nouvelles compétences en matière de réalité virtuelle et de gestion de projet. Je suis fier d'avoir participé à la création de cette expérience unique, qui a permis à la centrale hydroélectrique de Pragnères de se démarquer et de susciter l'intérêt de nouveaux visiteurs.

@@ -1,0 +1,14 @@
+Neverest: Fight Your Demons est un jeu vidéo d'aventure/puzzle et de combats de boss en 2.5D que j'ai développé en tant que chef de projet. J'ai travaillé en étroite collaboration avec mon équipe pour créer un univers unique et une ambiance immersive à travers des recherches de moodboard et de références.
+<br/>
+<br/>
+Dans ce jeu, chaque niveau a une ambiance différente évoquant une addiction et ses conséquences directes, et chaque boss est une addiction personnifiée que le joueur doit vaincre de manière subtile avec les moyens du bord et son cerveau. Nous avons utilisé des symboles forts pour représenter chaque addiction, tels qu'une plante qui se nourrit d'alcool pour symboliser l'alcoolisme ou des sacs de farine pour représenter la drogue.
+<br/>
+<br/>
+En termes techniques, nous avons utilisé le moteur de jeu Unity et avons programmé en C#. Nous avons également créé des modèles 3D et des textures pour les personnages et les environnements, ainsi que des effets sonores et une bande sonore pour ajouter à l'ambiance immersive du jeu.
+<br/> 
+<br/>
+Enfin, le jeu sensibilise le joueur aux dangers des différentes addictions à travers son histoire cachée. Nous sommes en réalité une personne dans le coma et nous sommes dans son inconscient en train de nous battre contre toutes sortes d'addictions incarnées par les différents boss. En vainquant chaque addiction, nous pouvons redorer l'environnement de couleur et peut-être nous réveiller enfin.
+<br/> 
+<br/>
+Bien que nous n'ayons pas encore pu distribuer le jeu, notre stratégie de distribution était de le rendre disponible sur PC Windows dans un premier temps, puis sur MacOS et Linux. Le jeu serait également compatible avec une manette de jeu pour une expérience de jeu optimale",
+          

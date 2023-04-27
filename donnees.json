@@ -3,7 +3,7 @@
     {
       "id": "FlipperVR",
       "filter": "vr",
-      "imgSrc": "assets/img/portfolio/FlipperVR/FlipperVR_FullImage.jpg",
+      "imgSrc": "assets/content/details/FlipperVR/img/FlipperVR_FullImage.jpg",
       "imgAlt": "image logo flipperVR",
       "infos": "Flipper physique couplé avec de la réalité virtuelle",
       "linkHref": "portfolio-details.php",
@@ -12,70 +12,70 @@
     {
       "id": "EDFAventure",
       "filter": "vr",
-      "imgSrc": "assets/img/portfolio/AventureEDF/edf.webp",
+      "imgSrc": "assets/content/details/AventureEDF/img/edf.webp",
       "imgAlt": "",
-      "infos": "Réalisation d'une visite en réalité virtuelle de la centrale hydroélectrique de pragnères",
+      "infos": "Réalisation d'une visite en réalité virtuelle de la centrale hydroélectrique de Pragnères.",
       "linkHref": "portfolio-details.php",
       "linkTitle": "More Details"
     },
     {
       "id": "Neverest",
       "filter": "game",
-      "imgSrc": "assets/img/portfolio/Neverest/logo.jpg",
+      "imgSrc": "assets/content/details/Neverest/img/logo.jpg",
       "imgAlt": "",
-      "infos": "Projet de jeu vidéo développé pendant mes études durant deux ans ayant gagné deux fois le titre de meilleur jeu du campus",
+      "infos": "Développement d'un jeu primé durant 2 ans d'études. Double vainqueur du titre de meilleur jeu du campus.",
       "linkHref": "portfolio-details.php",
       "linkTitle": "More Details"
     },
     {
       "id": "Sysmotruck",
       "filter": "vr",
-      "imgSrc": "assets/img/portfolio/Sysmotruck/sysmotruckVisiteur2.jpg",
+      "imgSrc": "assets/content/details/Sysmotruck/img/sysmotruckVisiteur2.jpg",
       "imgAlt": "",
-      "infos": "Expérience en réalité virtuelle de simulation de tremblement de terre couplé avec un vrai simulateur",
+      "infos": "Simulation de tremblement de terre en VR avec simulateur réel.",
       "linkHref": "portfolio-details.php",
       "linkTitle": "More Details"
     },
     {
       "id": "Portfolio",
       "filter": "web",
-      "imgSrc": "assets/img/portfolio/Portfolio/Portfolio.png",
+      "imgSrc": "assets/content/details/Portfolio/img/Portfolio.png",
       "imgAlt": "",
-      "infos": "Mon site web portfolio que j'utilise actuellement, lien Github disponible",
+      "infos": "Site web portfolio en ligne, lien Github disponible.",
       "linkHref": "portfolio-details.php",
       "linkTitle": "More Details"
     },
     {
       "id": "Launcher",
       "filter": "app",
-      "imgSrc": "assets/img/portfolio/Launcher/GameLauncher1.png",
+      "imgSrc": "assets/content/details/Launcher/img/GameLauncher1.png",
       "imgAlt": "",
-      "infos": "Launcher type, pouvant être customisé selon les besoins, avec pour but de de suivre un parcour CI/CD pour vôtre application ou  jeu",
+      "infos": "Launcher modulable pour parcours CI/CD de votre application ou jeu, personnalisable pour répondre à vos besoins.",
       "linkHref": "portfolio-details.php",
       "linkTitle": "More Details"
     },
     {
       "id": "API Web",
       "filter": "web",
-      "imgSrc": "assets/img/portfolio/APIWeb/APIWeb.png",
+      "imgSrc": "assets/content/details/APIWeb/img/APIWeb.png",
       "imgAlt": "",
-      "infos": "API Web pouvant être intégré facilement avec gestion des keys d'accès, disponible sur mon Github",
+      "infos": "API Web avec gestion des clés d'accès, facilement intégrable, disponible sur mon Github.",
       "linkHref": "portfolio-details.php",
       "linkTitle": "More Details"
     },
     {
       "id": "Wolfpurgis",
       "filter": "game",
-      "imgSrc": "assets/img/portfolio/Wolfpurgis/Loup_Garou_V2.jpg",
+      "imgSrc": "assets/content/details/Wolfpurgis/img/Loup_Garou_V2.jpg",
       "imgAlt": "",
-      "infos": "Jeu ambitieux et multi joueur en cour de développement",
+      "infos": "Projet jeu multi joueur en cours. Ambitieux.",
       "linkHref": "portfolio-details.php",
       "linkTitle": "More Details"
     },
     {
       "id": "TowerDefence",
       "filter": "game",
-      "imgSrc": "assets/img/portfolio/TowerDefence/Menu.png",
+      "imgSrc": "assets/content/details/TowerDefence/img/Menu.png",
       "imgAlt": "",
       "infos": "Petit jeu développé à l'occasion d'un cour sur unity",
       "linkHref": "portfolio-details.php",
@@ -89,17 +89,17 @@
         {
           "elementCarousel": 
             {
-              "img": "assets/img/portfolio/FlipperVR/FlipperVR_FullImage.jpg",
-              "img1": "assets/img/portfolio/FlipperVR/western.webp",
-              "img2": "assets/img/portfolio/FlipperVR/FlipperWestern_Jordi.jpg",
+              "img": "assets/content/details/FlipperVR/img/FlipperVR_FullImage.jpg",
+              "img1": "assets/content/details/FlipperVR/img/western.webp",
+              "img2": "assets/content/details/FlipperVR/img/FlipperWestern_Jordi.jpg",
               "video": "https://www.youtube.com/embed/wKXIbS2-qOI",
-              "img3": "assets/img/portfolio/FlipperVR/Hydroball.jpg",
-              "img4": "assets/img/portfolio/FlipperVR/FlipperVR_EDF.jpg",
-              "img5": "assets/img/portfolio/FlipperVR/SpaceFlipperMiniature.png",
-              "img6": "assets/img/portfolio/FlipperVR/Talent_d-or.jpg",
+              "img3": "assets/content/details/FlipperVR/img/Hydroball.jpg",
+              "img4": "assets/content/details/FlipperVR/img/FlipperVR_EDF.jpg",
+              "img5": "assets/content/details/FlipperVR/img/SpaceFlipperMiniature.png",
+              "img6": "assets/content/details/FlipperVR/img/Talent_d-or.jpg",
               "video2": "https://www.youtube.com/embed/ODPbgvFtuOs"
             },
-          "description":"Texte a venir ...",
+          "descriptionUrlText":"assets/content/details/FlipperVR/FlipperVR_detail.txt",
           "projectUrl":"https://www.flipper-vr.com",
           "projectDate": "2019 to 2022",
           "category": "Application VR",
@@ -111,20 +111,20 @@
           "engineVersion":"2019.5.1f",
           "enginePipeline":"URP"
         },
-        "EDFAventure":
+      "EDFAventure":
         {
           "elementCarousel": 
             {
-              "img1": "assets/img/portfolio/AventureEDF/20210616_105253.jpg",
-              "img2": "assets/img/portfolio/AventureEDF/pragneres.webp",
-              "img3": "assets/img/portfolio/AventureEDF/Aventure_V3_EDF.jpg",
-              "img4": "assets/img/portfolio/AventureEDF/20210702_193752.jpg",
-              "img5": "assets/img/portfolio/AventureEDF/20210702_193807.jpg",
-              "img6": "assets/img/portfolio/AventureEDF/20210702_193839.jpg",
-              "img7": "assets/img/portfolio/AventureEDF/20210702_193847.jpg",
+              "img1": "assets/content/details/AventureEDF/img/20210616_105253.jpg",
+              "img2": "assets/content/details/AventureEDF/img/pragneres.webp",
+              "img3": "assets/content/details/AventureEDF/img/Aventure_V3_EDF.jpg",
+              "img4": "assets/content/details/AventureEDF/img/20210702_193752.jpg",
+              "img5": "assets/content/details/AventureEDF/img/20210702_193807.jpg",
+              "img6": "assets/content/details/AventureEDF/img/20210702_193839.jpg",
+              "img7": "assets/content/details/AventureEDF/img/20210702_193847.jpg",
               "video": "https://www.youtube.com/embed/wKXIbS2-qOI?start=26"
             },
-          "description":"Durant mon alternance, j'ai travaillé sur un projet innovant pour la centrale hydroélectrique de Pragnères. Nous avons proposé une nouvelle manière de visiter la centrale en ajoutant la réalité virtuelle, offrant aux visiteurs la possibilité de découvrir des éléments inaccessibles jusqu'alors, tels que la montée au sommet du P1700 offrant une vue panoramique époustouflante sur les montagnes, ou encore l'exploration du système de galeries souterraines grâce à une carte interactive. <br/><br/>Nous avons créé deux expériences différentes : une autonome avec des casques Pino Neo 1 et 2, et une autre version plus longue avec des casques VR reliés à des PC. La première étape était de faire fonctionner l'application en boucle sans défaillance sur les casques autonomes, en résolvant les problèmes liés au lancement simultané pour les groupes de visiteurs. Nous avons finalement choisi l'autonomie pour faciliter la gestion et réduire les problèmes.<br/><br/>L'application elle-même était complexe à réaliser, car nous n'avions pas de personnel formé à la 3D dédié sur le projet, ce qui a rendu l'optimisation difficile. Cependant, grâce à cette expérience, la centrale hydroélectrique de Pragnères a vu augmenter le nombre de visiteurs, et a pu créer un circuit de visite payant, permettant à EDF de faire des bénéfices tout en plongeant les visiteurs dans l'histoire fascinante de la centrale.<br/><br/>Nous avons conçu cette expérience pour le grand public, en veillant à ce qu'il n'y ait aucun risque de malaise, de frayeur ou d'accident lié aux déplacements virtuels. Des scènes vertigineuses peuvent être proposées aux utilisateurs, mais seulement s'ils le souhaitent, et les expériences sont sécurisées par des rampes de sécurité pour éviter tout risque.<br/><br/>Ce projet a été une expérience passionnante et innovante pour moi, qui m'a permis d'acquérir de nouvelles compétences en matière de réalité virtuelle et de gestion de projet. Je suis fier d'avoir participé à la création de cette expérience unique, qui a permis à la centrale hydroélectrique de Pragnères de se démarquer et de susciter l'intérêt de nouveaux visiteurs.",
+          "descriptionUrlText":"assets/content/details/AventureEDF/AventureEDF_detail.txt",
           "articles":
             { 
               "article1":{
@@ -160,14 +160,14 @@
           "support": "Desktop, VR autonome (pico)",
           "langage": "C#"
         },
-        "Portfolio":
+      "Portfolio":
         {
           "elementCarousel": 
             {
-              "img": "assets/img/portfolio/Portfolio/Portfolio.png",
-              "img1": "assets/img/portfolio/Portfolio/scriptPortfolio.png"
+              "img": "assets/content/details/Portfolio/img/Portfolio.png",
+              "img1": "assets/content/details/Portfolio/img/scriptPortfolio.png"
             },
-          "description":"Texte a venir ...",
+          "descriptionUrlText":"assets/content/details/Portfolio/Portfolio_detail.txt",
           "projectUrl":"https://www.srvdreamer.fr",
           "projectDate": "2022 to 2023",
           "category": "Web",
@@ -178,18 +178,18 @@
           "githubLink": "https://github.com/Guilhem-Bonnet/Portfolio"
 
         },
-        "Sysmotruck":
+      "Sysmotruck":
         {
           "elementCarousel": 
             {
-              "img": "assets/img/portfolio/Sysmotruck/sysmotruckVisiteur2.jpg",
-              "img1": "assets/img/portfolio/Sysmotruck/image_002_0029.jpg",
-              "img2": "assets/img/portfolio/Sysmotruck/image_003_0037.jpg",
-              "img3": "assets/img/portfolio/Sysmotruck/sysmotruckMachine.jpg",
+              "img": "assets/content/details/Sysmotruck/img/sysmotruckVisiteur2.jpg",
+              "img1": "assets/content/details/Sysmotruck/img/image_002_0029.jpg",
+              "img2": "assets/content/details/Sysmotruck/img/image_003_0037.jpg",
+              "img3": "assets/content/details/Sysmotruck/img/sysmotruckMachine.jpg",
               "video":"https://www.youtube.com/embed/1t-Cjn1LHiY"
               
             },
-          "description": "J'ai eu l'opportunité de travailler sur le projet de la Maison de la Connaissance du Risque Sismique à Lourdes, où j'ai ajouté un aspect VR au simulateur sismique déjà en place. En tant que responsable du projet, j'ai créé trois scénarios de séismes différents, chacun avec une intensité distincte, en réponse aux besoins de nos clients.<br/><br/>Pour synchroniser les séismes virtuels avec l'application VR, nous avons développé une page web qui communique avec la machine. J'ai formé le personnel pour leur permettre d'être autonomes pendant les visites et de gérer les incidents, et j'ai également rédigé une documentation pour les accompagner.<br/><br/>Le projet VR a été réalisé sur Unity, ce qui m'a permis d'apprendre à gérer et optimiser un projet en HDRP tout en conservant des aspects visuels agréables comme les halos de lumière et la gestion des ombres. J'ai également découvert le plugin de destruction Rayfire pour Unity et la synchronisation des animations et des sons avec la timeline.<br/><br/>Les défis les plus importants ont été la synchronisation des applications pour éviter tout décalage susceptible d'affecter l'expérience, ainsi que l'optimisation de l'application pour les bâtiments destructibles en VR, notamment avec des lumières HDRP qui consomment beaucoup de ressources.<br/><br/>Bien que l'expérience ait pu \"secouer\" les visiteurs, nous avons reçu des retours positifs sur l'expérience immersive.",
+          "descriptionUrlText": "assets/content/details/Sysmotruck/Sysmotruck_detail.txt",
           "projectUrl":"https://www.lourdes-infotourisme.com/offres/maison-de-la-connaissance-du-risque-sismique-lourdes-fr-3152682/",
           "projectDate": "2021 to 2022",
           "category": "Application VR",
@@ -206,10 +206,10 @@
         {
           "elementCarousel": 
             {
-              "img": "assets/img/portfolio/TowerDefence/Menu.png",
-              "img1": "assets/img/portfolio/TowerDefence/Game.png"
+              "img": "assets/content/details/TowerDefence/img/Menu.png",
+              "img1": "assets/content/details/TowerDefence/img/Game.png"
             },
-          "description":"Texte a venir ...",
+          "descriptionUrlText":"assets/content/details/TowerDefence/TowerDefence_detail.txt",
           "projectDate": "2022 to 2023",
           "category": "Jeux vidéo",
           "projectName": "TowerDefence" ,
@@ -225,9 +225,9 @@
         {
           "elementCarousel": 
             {
-              "img": "assets/img/portfolio/Neverest/logo.jpg"
+              "img": "assets/content/details/Neverest/img/logo.jpg"
             },
-          "description":"Neverest: Fight Your Demons est un jeu vidéo d'aventure/puzzle et de combats de boss en 2.5D que j'ai développé en tant que chef de projet. J'ai travaillé en étroite collaboration avec mon équipe pour créer un univers unique et une ambiance immersive à travers des recherches de moodboard et de références.<br/><br/>Dans ce jeu, chaque niveau a une ambiance différente évoquant une addiction et ses conséquences directes, et chaque boss est une addiction personnifiée que le joueur doit vaincre de manière subtile avec les moyens du bord et son cerveau. Nous avons utilisé des symboles forts pour représenter chaque addiction, tels qu'une plante qui se nourrit d'alcool pour symboliser l'alcoolisme ou des sacs de farine pour représenter la drogue.<br/><br/>En termes techniques, nous avons utilisé le moteur de jeu Unity et avons programmé en C#. Nous avons également créé des modèles 3D et des textures pour les personnages et les environnements, ainsi que des effets sonores et une bande sonore pour ajouter à l'ambiance immersive du jeu.<br/> <br/>Enfin, le jeu sensibilise le joueur aux dangers des différentes addictions à travers son histoire cachée. Nous sommes en réalité une personne dans le coma et nous sommes dans son inconscient en train de nous battre contre toutes sortes d'addictions incarnées par les différents boss. En vainquant chaque addiction, nous pouvons redorer l'environnement de couleur et peut-être nous réveiller enfin.<br/> <br/>Bien que nous n'ayons pas encore pu distribuer le jeu, notre stratégie de distribution était de le rendre disponible sur PC Windows dans un premier temps, puis sur MacOS et Linux. Le jeu serait également compatible avec une manette de jeu pour une expérience de jeu optimale",
+          "descriptionUrlText":"assets/content/details/Neverest/Neverest_detail.txt",
           "projectDate": "2022 to 2023",
           "category": "Jeux vidéo",
           "projectName": "Neverest: Fight Your Demons" ,
@@ -243,10 +243,10 @@
         {
           "elementCarousel": 
             {
-              "img": "assets/img/portfolio/Wolfpurgis/Loup_Garou_V2.jpg",
-              "img1": "assets/img/portfolio/Wolfpurgis/tease.png"
+              "img": "assets/content/details/Wolfpurgis/img/Loup_Garou_V2.jpg",
+              "img1": "assets/content/details/Wolfpurgis/img/tease.png"
             },
-          "description":"",
+          "descriptionUrlText":"assets/content/details/Wolfpurgis/Wolfpurgis_detail.txt",
           "projectDate": "2022 to 2023",
           "category": "Jeux vidéo",
           "projectName": "Wolfpurgis" ,
@@ -261,9 +261,9 @@
         {
           "elementCarousel": 
             {
-              "img": "assets/img/portfolio/APIWeb/APIWeb.png"
+              "img": "assets/content/details/APIWeb/img/APIWeb.png"
             },
-          "description":"Texte a venir ...", 
+          "descriptionUrlText":"assets/content/details/APIWeb/APIWeb_detail.txt", 
           "projectDate": "2022 to 2023",
           "category": "Web",
           "projectName": "API Web" ,
@@ -277,10 +277,10 @@
         {
           "elementCarousel": 
             {
-              "img": "assets/img/portfolio/Launcher/GameLauncher1.png",
-              "img2": "assets/img/portfolio/Launcher/codeGameLauncher.png"
+              "img": "assets/content/details/Launcher/img/GameLauncher1.png",
+              "img2": "assets/content/details/Launcher/img/codeGameLauncher.png"
             },
-          "description":"Texte a venir ...",
+          "descriptionUrlText":"assets/content/details/Launcher/Launcher_detail.txt",
           "projectDate": "2022 to 2023",
           "category": "Application",
           "projectName": "Launcher" ,
