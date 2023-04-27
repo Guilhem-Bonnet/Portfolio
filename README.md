@@ -5,7 +5,7 @@ Ce projet est mon portfolio en ligne, présentant mes compétences, mes projets 
 - Présentation de mes compétences et expériences professionnelles.
 - Présentation de mes projets, avec des images et des descriptions détaillées.
 
-Technologies utilisées
+# Technologies utilisées
 - HTML, CSS, JavaScript, PHP
 - Node.js pour les dépendances
 
@@ -38,18 +38,18 @@ Le projet est organisé de la manière suivante :
 │   ├── scss/
 │   ├── vendor/
 |   ├── css/
-│        ├── main.css
-│        └── normalize.css
+│   │    ├── main.css
+│   │    └── normalize.css
 |   ├──img/
-│       ├── background.jpg
-│       ├── project-1.jpg
-│       └── ...
+│   │   ├── background.jpg
+│   │   ├── project-1.jpg
+│   │   └── ...
 │   └── js/
 │       ├── main.js
 │       └── vendor/
 │       ├── jquery-3.6.0.min.js
 │       └── ...
-
+│
 ├── forms/
 ├── node_modules/
 ├── vendor/
