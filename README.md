@@ -17,6 +17,9 @@ git clone https://github.com/Guilhem-Bonnet/Portfolio.git
 ```
 2. Assurez-vous que vous avez **npm** et **Node.js** installés sur votre machine.
 3. Exécutez **npm install** pour installer les dépendances.
+ ```bash
+npm install
+```
 4. Ouvrez **index.php** dans votre navigateur.
 
 # Structure du projet
