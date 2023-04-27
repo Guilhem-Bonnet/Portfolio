@@ -85,8 +85,5 @@ Le projet est organisé de la manière suivante :
 
 **package-lock.json**: verrouillage de version de dépendance de Node.js.
 
-# Contributions
-Les contributions sont les bienvenues ! Si vous souhaitez contribuer au projet, vous pouvez ouvrir une issue ou une pull request sur le dépôt GitHub.
-
 # License
 Le code source du portfolio est sous licence MIT. Voir le fichier LICENSE pour plus d'informations.
