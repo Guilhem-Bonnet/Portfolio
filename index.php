@@ -4,11 +4,29 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="Portfolio Bonnet Guilhem" name="keywords">
+  <meta theme-color="#000000" name="msapplication-navbutton-color">
+  <meta content="Portfolio professionnel de Bonnet Guilhem - Ingénieur informatique passionné par la programmation. Découvrez mes compétences, mes projets et mon parcours." name="description">
+  <meta content="Portfolio professionnel de Bonnet Guilhem - Ingénieur informatique passionné par la programmation. Découvrez mes compétences, mes projets et mon parcours." name="og:description">
+  <meta content="Portfolio Bonnet Guilhem" name="og:site_name">
+  <meta content="Portfolio professionnel de Bonnet Guilhem - Ingénieur informatique passionné par la programmation. Découvrez mes compétences, mes projets et mon parcours." name="twitter:description">
+  <meta content="Portfolio Bonnet Guilhem" name="twitter:title">
+  <meta content="@_DevelopADream" name="twitter:site"> 
+  <meta content="@_DevelopADream" name="twitter:creator"> 
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="https://guilhem.srvdreamer.fr/assets/img/logo_GBJ_Cercle.png" name="twitter:image">
+  <meta content="https://guilhem.srvdreamer.fr/assets/img/logo_GBJ_Cercle.png" name="og:image">
+  <meta content="https://guilhem.srvdreamer.fr" name="og:url">
+  <meta content="website" name="og:type"> 
+  <meta content="fr_FR" name="og:locale"> 
+  <meta content="en_US" name="og:locale:alternate">
+  <meta content="Portfolio Bonnet Guilhem" name="og:site_name">
+  <meta content="Portfolio Bonnet Guilhem" name="og:title">
+  <meta content="Portfolio Bonnet Guilhem" name="og:description">
 
-  <title>Portfolio Bonnet guilhem</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
+  <title>Portfolio Bonnet Guilhem</title>
 
+  <meta content="Portfolio Bonnet Guilhem" name="og:title">
   <!-- Favicons -->
   <link href="assets/img/logo_GBJ_Cercle.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -417,19 +435,19 @@
                     </li>
                     <ul>
                       <li>
-                        <span class="badge   badge-pill"><img class="icon" src="assets/img/icons/Git-Icon-1788C.png"> Git</span>
+                        <span class="badge   badge-pill"><img class="icon" alt="icon-Git" src="assets/img/icons/Git-Icon-1788C.png"> Git</span>
                       </li>
                       <li>
-                        <span class="badge   badge-pill"><img class="icon" src="assets/img/icons/github.png"> GitHub</span>
+                        <span class="badge   badge-pill"><img class="icon" alt="icon-GitHub" src="assets/img/icons/github.png"> GitHub</span>
                       </li>
                       <li>
-                        <span class="badge   badge-pill"><img class="icon" src="assets/img/icons/gitlab.png"> Git Lab</span>
+                        <span class="badge   badge-pill"><img class="icon" alt="icon-GitLab" src="assets/img/icons/gitlab.png"> Git Lab</span>
                       </li>
                       <li>
-                        <span class="badge   badge-pill"><img class="icon" src="assets/img/icons/git-kraken.png"> Git kraken</span>
+                        <span class="badge   badge-pill"><img class="icon" alt="icon-Git-Kraken" src="assets/img/icons/git-kraken.png"> Git kraken</span>
                       </li>
                       <li>
-                        <span class="badge   badge-pill"><img class="icon" src="assets/img/icons/unity.png"> Unity</span>
+                        <span class="badge   badge-pill"><img class="icon" alt="icon-Unity" src="assets/img/icons/unity.png"> Unity</span>
                       </li>
                     </ul>
                   </ul>
@@ -442,13 +460,13 @@
                     </li>
                     <ul>
                       <li>
-                        <span class="badge   badge-pill"><img class="icon" src="assets/img/icons/Visual-Studio-Logo.png">Visual studio</span>
+                        <span class="badge   badge-pill"><img class="icon" alt="icon-VS" src="assets/img/icons/Visual-Studio-Logo.png">Visual studio</span>
                       </li>
                       <li>
-                        <span class="badge   badge-pill"><img class="icon" src="assets/img/icons/visualstudiocode.png"> Visual code</span>
+                        <span class="badge   badge-pill"><img class="icon" alt="icon-VSCode" src="assets/img/icons/visualstudiocode.png"> Visual code</span>
                       </li>
                       <li>
-                        <span class="badge   badge-pill"><img class="icon" src="assets/img/icons/IntelliJ_IDEA_Icon.svg.png"> Intellij IDEA</span>
+                        <span class="badge   badge-pill"><img class="icon" alt="icon-IntelliJ" src="assets/img/icons/IntelliJ_IDEA_Icon.svg.png"> Intellij IDEA</span>
                       </li>
                     </ul>
                   </ul>
