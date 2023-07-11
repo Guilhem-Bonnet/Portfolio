@@ -48,12 +48,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <script src="assets/js/my-main.js" async></script>
-  <!-- =======================================================
-  * Template Name: iPortfolio - v1.2.1
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
@@ -180,7 +175,7 @@
           echo '<div class="portfolio-info">';
           echo'<h4>'.htmlspecialchars($item["id"]).' </h4><p>'.htmlspecialchars($item["infos"]).' </p>';
           echo '<div class="portfolio-links">';
-          echo '<a href="' . htmlspecialchars($item["linkHref"]) . '?element=' . htmlspecialchars($item["id"]). '" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="' . htmlspecialchars($item["linkTitle"]) . '"><i class="bx bx-plus"></i></a>';
+          echo '<a rel="nofollow" href="' . htmlspecialchars($item["linkHref"]) . '?element=' . htmlspecialchars($item["id"]). '" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="' . htmlspecialchars($item["linkTitle"]) . '"><i class="bx bx-plus"></i></a>';
           echo '</div>';
           echo '</div>';
           echo '</div>';
