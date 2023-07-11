@@ -6,5 +6,5 @@ Le projet VR a été réalisé sur Unity, ce qui m'a permis d'apprendre à gére
 <br/><br/>
 Les défis les plus importants ont été la synchronisation des applications pour éviter tout décalage susceptible d'affecter l'expérience, ainsi que l'optimisation de l'application pour les bâtiments destructibles en VR, notamment avec des lumières HDRP qui consomment beaucoup de ressources.
 <br/><br/>
-Bien que l'expérience ait pu \"secouer\" les visiteurs, nous avons reçu des retours positifs sur l'expérience immersive.",
+Bien que l'expérience ait pu "secouer" les visiteurs, nous avons reçu des retours positifs sur l'expérience immersive. 
           

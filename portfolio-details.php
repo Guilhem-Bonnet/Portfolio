@@ -163,16 +163,25 @@ if ($descriptionUrl!=null){
                 'jpg',
                 'png',
                 'webp',
+                'avif'
               );
               
               // Parcourir les éléments du carousel
               foreach($element["elementCarousel"] as $key => $value) {
                 $fileType = pathinfo($value, PATHINFO_EXTENSION); // Récupérer l'extension du fichier
-              
+
+                $path = pathinfo($value, PATHINFO_DIRNAME);
+                $filename = pathinfo($value, PATHINFO_FILENAME);
+                $newFilename = $filename . ".avif";
+                $newImgSrc = $path . "/" . $newFilename;
+
                 // Vérifier si l'élément est une image
                 if(in_array($fileType, $fileTypes)) {
                   // Imprimer la balise HTML pour l'image
+                  echo'<picture>';
+                  echo '<source srcset="' . $newImgSrc . '" type="image/avif">';
                   echo '<img src="' . $value . '" class="img-fluid carousel-item" alt="' . $key . '">';
+                  echo '</picture>';
                 }
                 
                 // Vérifier si l'élément est une vidéo youtube

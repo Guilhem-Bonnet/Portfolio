@@ -53,7 +53,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Bonnet Guilhèm</h1>
-      <p>je suis <span class="typed" data-typed-items="Développeur VR, Chef de Projet, Développeur Unity, Développeur de jeux"></span></p>
+      <p>je suis <span class="typed" data-typed-items="Développeur XR, Chef de Projet, Développeur Web, Game programmer, Auto-Entrepreneur"></span></p>
     </div>
   </section><!-- End Hero -->
 
@@ -72,13 +72,13 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/me-2.jpg" class="img-fluid img-profil" border-radius="10%" alt="">
+            <picture>
+              <source type ="image/avif" srcset="assets/img/me-2.avif">
+              <img src="assets/img/me-2.jpg" class="img-fluid img-profil" border-radius="10%" alt="">
+            </picture>
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Expert développement Logiciel, Mobile &amp; IoT</h3>
-            <p class="font-italic">
-              Actuellement en fin d'étude en alternance (Bac+5), j'ai déjà acquis plus de 3 ans d'expérience dans le monde professionnel.
-            </p>
+
             <div class="row">
               <div class="col-lg-6">
                 <ul>
@@ -148,13 +148,21 @@
 
         // Parcourir le tableau et afficher les données
         foreach($data["portfolio"] as $item) {
+          $path = pathinfo($item["imgSrc"], PATHINFO_DIRNAME);
+          $filename = pathinfo($item["imgSrc"], PATHINFO_FILENAME);
+          $newFilename = $filename . ".avif";
+          $newImgSrc = $path . "/" . $newFilename;
+
           echo '<div class="col-lg-4 col-md-6 portfolio-item filter-' . $item["filter"] . '">';
           echo '<div class="portfolio-wrap">';
-          echo '<img src="' . $item["imgSrc"] . '" class="img-fluid" alt="' . $item["imgAlt"] . '">';
+          echo '<picture>';
+          echo '<source type ="image/avif" class="img-fluid" srcset="' . $newImgSrc . '">';
+          echo '<img src="' . htmlspecialchars($item["imgSrc"]) . '" class="img-fluid" alt="' . htmlspecialchars($item["imgAlt"]) . '">';
+          echo '</picture>';
           echo '<div class="portfolio-info">';
-          echo'<h4>'.$item["id"].' </h4><p>'.$item["infos"].' </p>';
+          echo'<h4>'.htmlspecialchars($item["id"]).' </h4><p>'.htmlspecialchars($item["infos"]).' </p>';
           echo '<div class="portfolio-links">';
-          echo '<a href="' . $item["linkHref"] . '?element=' . $item["id"]. '" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="' . $item["linkTitle"] . '"><i class="bx bx-plus"></i></a>';
+          echo '<a href="' . htmlspecialchars($item["linkHref"]) . '?element=' . htmlspecialchars($item["id"]). '" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="' . htmlspecialchars($item["linkTitle"]) . '"><i class="bx bx-plus"></i></a>';
           echo '</div>';
           echo '</div>';
           echo '</div>';
@@ -486,7 +494,7 @@
         </div>
 
         <div>
-          <p>Développeur Logiciel innovant, avec plus de 3 ans d'expérience dans la conception d'applications Unity et en réalité virtuelle. Du concept jusqu'au livrable, sa mise en place et la maintenance.</p>
+          <p>Bien que j'ai un profil axé XR je suis ouvert au challenge technique divers et je suis prêt à m'investir dans toutes les technologies</p>
         </div>
 
         <div class="row">
@@ -495,7 +503,7 @@
             <div class="resume-item pb-0">
               <h4>Guilhèm Bonnet</h4>
               <ul>
-                <li>65000, Tarbes</li>
+                <li>31000, Toulouse</li>
                 <li>guilhem.bonnetjalabert@gmail.com</li>
               </ul>
             </div>
@@ -505,64 +513,107 @@
               <h4>Master Expert(e) informatique et systèmes d’informations</h4>
               <h5>2020 - 2022</h5>
               <p><em>Ynov Toulouse Campus, Toulouse, France</em></p>
-              <p>Durant ces années je me suis préparé au mieux pour le management et la gestion de projet. J'ai été chef de projet d'une équipe de 12 personnes avec 3 pôles différents; Les développeurs, les artistes 3D et les graphistes, le tout respectant la méthode agile kanban. J'ai aussi réalisé un mémoire sur le thème “Une qualité de service IT dans le domaine de la réalité virtuelle”. </p>
+              <ul>
+                <li>> Management / Gestion de Projet</li>
+                <li>> Chef de projet d'une équipe de 12 personnes avec des secteurs variés</li>
+                <li>> Methode agile Kanban/Scrum (Jira / Trello)</li>
+                <li>> Memoire sur le thème <b>"Une qualité de service IT dans le domaine de la réalité virtuelle"</b></li>
+                <li>> Java avancé</li>
+                <li>> Projets en situation professionnelle <a class="scrollto" href="index.php#portfolio">Neverest (2ans)</a></li>
+              </ul>
+     
             </div>
             <div class="resume-item">
               <h4>Bachelor développeur logiciel</h4>
               <h5>2019 - 2020</h5>
               <p><em>Ynov Toulouse Campus, Toulouse, France</em></p>
-              <p>Développement logiciel
-                > Android
-                > IOS
-                > Conception d’applications métiers
-                > Sécurité des logiciels et applications mobiles
-                > Java Avancé
-                > .NET avancé
-                > Evaluation projet</p>
+              <ul>
+                <li>> Android / IOS</li>
+                <li>> Conception d’applications métiers</li>
+                <li>> Sécurité des logiciels et applications mobiles</li>
+                <li>> Java avancé</li>
+                <li>> .NET avancé</li>
+                <li>> Projets en situation professionnelle</li>
+                <li>> Programmation jeux vidéo</li>
+              </ul>
+       
             </div>
             <div class="resume-item">
               <h4>BTS SIO Système informatique aux organisations</h4>
               <h5>2017 - 2019</h5>
               <p><em>Marie Curie, Tarbes, France</em></p>
-              <p>Apprentissage des bases de l'informatique Objet, et des concepts d'architecture logiciel tels que MCD et MLD.
-                J'ai aussi pu développer mes bases en réseau et gestion de serveurs</p>
+                <ul>
+                  <li>> Langage Objet | php / C#</li>
+                  <li>> Architecture logiciel | MCD / MLD</li>
+                  <li>> Base de données | SQL</li>
+                  <li>> Réseaux / Serveur / Virtualisation</li>
+                  <li>> Web</li>
+                  <li>> Windev</li>
+              </ul>
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Expérience professionnelle</h3>
-            
             <div class="resume-item">
-              <h4>Responsable du Développement en Réalitée Virtuelle (VR)</h4>
-              <h5>2019 - Aujourd'hui</h5>
-              <h6>Otidea . Contrat en alternance</h6>
-              <p><em>Tarbes, France</em></p>
+              <h4>Auto-Entrepreneur</h4>
+              <h5>2022 - Aujourd'hui | à distance</h5>
+              <h6>DevelopADream .  Auto-Entrepreneur</h6>
+              <p><em>Toulouse, France</em></p>
+              <p>Actuellement en statut d'auto-entrepreneur, je réalise de nombreux projets polyvalents sur des contextes variés :</p>
               <ul>
-                <li>Game Design Unity (HDRP / URP)</li>
-                <li>Optimisation VR ( code, 3D, technologies) </li>
-                <li>Développeur</li>
-                <li>Gestions des projets VR</li>
-                <li>Upgrade de projets</li>
+                <li># Conception & création de sites web</li>
+                <li># Développement de jeux mobiles, PC & VR</li>
+                <li># Approfondissement et enrichissement des connaissances avec de la veille technologique</li>
               </ul>
             </div>
             <div class="resume-item">
-              <h4>Stagiaire développeur</h4>
-              <h5>2019 (3 mois)</h5>
-              <h6>Otidea . Stage</h6>
+              <h4>Responsable du service VR</h4>
+              <h5>2019 - 2022 | sur site / à distance</h5>
+              <h6>Otidea . Contrat en alternance</h6>
               <p><em>Tarbes, France</em></p>
-              <p>
-                Création d'un jeu en réalité virtuelle avec un oculus go pour la SMTD. Cela avait pour but de sensibiliser les usagers à trier leurs déchets dans les poubelles jaunes.
-                Jeux qui a été exposé à la foire agricole de Tarbes.
-              </p>
+              <ul>
+                <li># Responsable des projets VR de l'entreprise / Contact avec les clients / Gestion des incidents / Installation des produits. </li>
+                <li># Création de 3 jeux Flipper VR (avec la structure électrique et physique), allant du prototype jusqu'à une version prête pour livraison. Gestion des différents membres qui ont fait partie de mon équipe (2-4 personnes). </li>
+                <li># Mise en place d'un écosystème Agile avec un système CI/CD en plus d'un environnement DevOps dans un système anciennement Cycle en V. </li>
+                <li># Maintien et suivi de la documentation sur tous les projets en cours. </li>
+                <li># Réalisation d'expériences en VR la visite d'une centrale hydroélectrique et son histoire (retrouvez-vous en haut des Pyrénées en VR) ou encore un simulateur de tremblement de terre couplé avec la VR.</li>
+              </ul>
             </div>
             <div class="resume-item">
-              <h4>Stagiaire développeur</h4>
-              <h5>2017 (1 mois)</h5>
-              <h6>PCR-Communication - Agence de com 360° . Stage</h6>
+              <h4>Développeur VR</h4>
+              <h5>2019 - 2019 | sur site</h5>
+              <h6>Otidea . CDD</h6>
               <p><em>Tarbes, France</em></p>
-              <p>
-                Stage d'un mois durant lequel j'étais en autonomie.
-                Mon objectif était de créer un serveur linux fonctionnant avec apache2, wordpress et un Nextcloud configuré par mes soins.
-              </p>
+              <p>Gestion d'une équipe de 4 personnes dans un modèle agile sur un projet d'AR/VR</p>
+              <ul>
+                <li># Création d'une expérience de visite VR pour une centrale hydroélectrique.</li>
+                <li># Optimisation d'un projet pour Rift vers une version pour Pico Neo 1,2 et Oculus Quest 1.</li>
+                <li># Gestion d'équipe de 2-4 personnes.</li>
+                <li># Recherche sur la récente évolution des technologies VR et des dangers intrinsèque.</li>
+                <li># Réalisation d'un circuit de visite avec documentation.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Développeur</h4>
+              <h5>2019 (3 mois) | sur site</h5>
+              <h6>Otidea . Stage</h6>
+              <p><em>Tarbes, France</em></p>
+              <ul>
+                <li># Élaboration d'un jeu VR pour l'Oculus GO</li>
+                <li># Challenge d'optimisation pour la physique & la mémoire & le visuel</li>
+                <li># Mise en place d'une campagne de sensibilité écologique par le biais d'une expérience immersive de réalité virtuel</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Développeur Full Stack</h4>
+              <h5>2017 (1 mois) | sur site</h5>
+              <h6>PCR Communication - Agence de com 360° . Stage</h6>
+              <p><em>Tarbes, France</em></p>
+              <ul>
+                <li># Création d'un serveur Web Local avec un Debian permettant de faire du Wordpress</li>
+                <li># Ajout d'un Nextcloud pour un cloud Local</li>
+                <li># Gestion de la sécurité (Nextcloud LAN / Wordpress WLAN)</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -642,8 +693,6 @@
                 </div>
               </div>
             </div>
-
-
           </div>
   
         </div>

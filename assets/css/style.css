@@ -322,6 +322,8 @@ section {
   margin-right: 15%;
   max-width: 500px;
   background-color: #3b3b3b;
+  border-top-right-radius: 20px;    /* arrondit le bord supérieur droit */
+  border-bottom-right-radius: 50px; /* arrondit le bord inférieur droit */
 }
 
 .section-title h2::after {
@@ -479,6 +481,7 @@ section {
   background: #fff;
   border: 2px solid #1f5297;
 }
+
 
 /*--------------------------------------------------------------
 # Portfolio
