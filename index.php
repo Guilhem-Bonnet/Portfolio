@@ -26,7 +26,6 @@
 
   <title>Portfolio Bonnet Guilhem</title>
 
-  <meta content="Portfolio Bonnet Guilhem" name="og:title">
   <!-- Favicons -->
   <link href="assets/img/logo_GBJ_Cercle.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -641,9 +640,9 @@
         <div class="section-title">
           <h2>Hobbies</h2>
           <h3>Quel est l'intérêt d'un hobbies ?</h3>
-          <p>Pour moi un hobby me permet de montrer ce qui me passionne et me fais avancer afin que l'on puisse plus facilement cerner mon fonctionnement et mon caractère. Je pense qu'il est plus simple de connaitre les goûts d'une personne pour pouvoir échanger avec elle. </p>  
+          <p>À mon sens, les hobbies jouent un rôle essentiel pour bien me connaître. Ils reflètent mes passions, mes intérêts et ma personnalité. En partageant mes hobbies, je favorise des échanges authentiques et offre l'opportunité de mieux comprendre qui je suis réellement, au-delà de ma vie professionnelle.</p>
+        </div>
 
-          </div>
         <!-- Carousel -->
         <div id="carouselHobbies" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -654,65 +653,94 @@
           <div class="carousel-inner">
 
             <div class="carousel-item active">
-              <div class="card-deck">
-                <div class="card">
-                  <img class="card-img-top" src="assets/img/chess.gif" alt="game image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Stratégie</h5>
-                    <p class="card-text">J'aime tout ce qui nous demande d'élaborer une stratégie. Que ça soit dans le jeu vidéo ou dans la réalité. Ce que j'y apprécie le plus c'est de chercher différentes façons d'approche pour atteindre un objectif</p>
+              <div class="row">
+                <!-- Card 1 -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/img/chess.gif" alt="game image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Stratégie</h5>
+                      <p class="card-text">
+                      La stratégie est un domaine qui m'anime profondément. J'ai une passion pour l'exploration des mécanismes complexes de résolution de problèmes et la recherche de voies innovantes pour atteindre mes objectifs. Que ce soit dans des jeux de société, des jeux vidéo ou même dans des situations réelles, j'adore m'immerger dans des défis stratégiques. La stratégie m'offre un terrain fertile pour la créativité et l'imagination, me permettant d'envisager des possibilités incroyables et des approches uniques. Je trouve une grande inspiration dans les stratèges historiques qui ont créé des victoires remarquables à travers des batailles burlesques et étonnantes. La stratégie est un hobby qui continue à nourrir ma curiosité et à me pousser à repousser mes propres limites intellectuelles.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="card">
-                  <img class="card-img-top" src="assets/img/agile.gif" alt="game image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Management</h5>
-                    <p class="card-text">Depuis mon entrée dans le domaine professionnel j'ai découvert une passion pour le management. En effet le management est pour moi une considération de l'employé pour son travail se qui rime avec qualité de travail. Aujourd'hui je m'engage à faire tous mes projets dans de bonnes conditions permettant aux équipes de se sentir bien et nous permet d’effectuer un travail de qualité</p>
+                <!-- Card 2 -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/img/agile.gif" alt="game image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Management</h5>
+                      <p class="card-text">
+                      Le domaine du management suscite en moi une véritable passion. Bien que je ne l'exerce pas actuellement, j'ai un profond intérêt pour le rôle du manager et la façon dont il peut aider son équipe à atteindre son plein potentiel. J'admire la capacité du manager à créer un environnement de travail favorable, à favoriser la collaboration et à permettre à chacun de donner le meilleur de lui-même. À l'avenir, si je viens à me lasser du développement informatique, je pourrais envisager d'explorer le domaine du management pour mettre en pratique ces compétences et aider les autres à réussir. C'est un domaine qui me fascine par son impact sur l'efficacité de l'équipe et sa capacité à favoriser une culture de travail dynamique et harmonieuse.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="card">
-                  <img class="card-img-top" src="assets/img/gaming.gif" alt="game image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Gaming</h5>
-                    <p class="card-text">Passionné par le gaming, j'aime cette façon de créer un univers ludique dans lequel on peut s'immerger et s'y amuser. Tous les aspects que l'on peut y retrouver me fascine, que ça soit compétitif, coop, chill, contemplatif, ou bien encore immersif.</p>
+                <!-- Card 3 -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/img/gaming.gif" alt="game image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Gaming et Développement</h5>
+                      <p class="card-text">
+                      En tant que développeur, je considère le gaming comme une partie essentielle de mon identité professionnelle. Pour créer des expériences immersives et innovantes, il est crucial de comprendre la dynamique des jeux vidéo et d'être passionné par cet univers. En tant que gamer, je suis constamment à l'affût des dernières tendances, des nouvelles technologies et des mécanismes de jeu émergents. Cette passion me pousse à repousser les limites et à créer des expériences uniques pour les joueurs.
+                    </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            
-
-            <div class="carousel-item ">
-              <div class="card-deck">
-                <div class="card">
-                  <img class="card-img-top" src="assets/img/dev.gif" alt="game image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Développement Divers</h5>
-                    <p class="card-text">Depuis que j'ai découvert le développement informatique, j'aime beaucoup la diversité des possibilités. J'adore explorer toutes les possibilités et essayé des choses jamais vus. J'aime découvrir les nouvelles technologies comme les possibilités de l'IOT ou encore l'IA.</p>
+            <div class="carousel-item">
+              <div class="row">
+                <!-- Card 4 -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/img/dev.gif" alt="game image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Tech et Avancées dans le Domaine de l'Informatique</h5>
+                      <p class="card-text">
+                        La technologie et les avancées constantes dans le domaine de l'informatique m'enthousiasment au plus haut point. Les domaines de l'IoT, de l'informatique quantique, de l'intelligence artificielle, de la réalité virtuelle, et bien d'autres, sont des sources inépuisables d'inspiration et de défis intellectuels. Je suis constamment en quête de nouvelles connaissances et je m'efforce de rester à jour avec les dernières tendances technologiques. Cette fascination pour la tech me pousse à contribuer activement au développement de solutions innovantes et à explorer les frontières de l'informatique.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="card">
-                  <img class="card-img-top" src="assets/img/jap.gif" alt="game image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Mangas - Animes</h5>
-                    <p class="card-text">Lecteur et viewer des productions japonaise ou webtoon, j'aime ces univers remplis d'histoires, même si je n’adhère pas à tous les aspects de cette culture.</p>
+                <!-- Card 5 -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/img/jap.gif" alt="game image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Mangas, Culture Japonaise et Webtoon</h5>
+                      <p class="card-text">
+                        Les mangas, la culture japonaise et les Webtoons sont pour moi une source d'évasion et d'inspiration. Leurs histoires captivantes et leurs dessins uniques créent un monde fantastique où l'imagination n'a pas de limite. Je suis fasciné par la façon dont ces médias réussissent à transmettre des émotions profondes et à aborder des sujets variés, allant de l'aventure épique à l'introspection personnelle. Ils ont nourri ma créativité et m'ont incité à explorer différentes formes d'expression artistique.
+                      </p>                    
+                    </div>
                   </div>
                 </div>
-                <div class="card">
-                  <img class="card-img-top" src="assets/img/voyage.gif" alt="game image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Voyages</h5>
-                    <p class="card-text">Je suis très ouvert et aime beaucoup apprendre l'histoire et la culture du monde.</p>
+                <!-- Card 6 -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/img/voyage.gif" alt="game image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Voyages et Découverte de Nouvelles Cultures et Paysages</h5>
+                      <p class="card-text">
+                        Depuis toujours, j'ai été captivé par l'idée d'explorer le monde et de m'immerger dans de nouvelles cultures. Les voyages sont bien plus qu'une simple passion pour moi, ils sont une source infinie d'inspiration et d'enrichissement personnel. Chaque nouvelle destination me permet de découvrir des paysages à couper le souffle, des traditions uniques et des modes de vie différents. À travers mes voyages, j'ai appris à apprécier la diversité de notre planète et à développer une ouverture d'esprit qui m'influence tant sur le plan personnel que professionnel.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-  
         </div>
         <!-- Fin Carousel -->
 
       </div>
-    </section><!-- End Hobbies Section -->
+    </section>
+<!-- End Hobbies Section -->
+
 
     
     <!-- ======= Contact Section ======= -->

@@ -28,9 +28,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-.hobbies {
-  background-color: white;
-}
+
 .icon {
   height: 20px;
 
@@ -775,6 +773,7 @@ background-color: #f6f6f6;
 /*--------------------------------------------------------------
 # Hobbies
 --------------------------------------------------------------*/
+
 .hobbies{
   background-color: #ffffff;
   /*color: white;*/
@@ -1113,11 +1112,7 @@ background-color: #f6f6f6;
     
   }
 }
-.carousel-item {
-  height: 600px; /* if change this, you need change also iframe height  */
-  object-fit: cover; /* adapter l'image à la taille définie */
 
-}
 
 
 /*--------------------------------------------------------------
