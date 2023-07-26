@@ -225,6 +225,7 @@
         {
           "elementCarousel": 
             {
+              "video": "https://www.youtube.com/embed/P2epnNMB7-c",
               "img": "assets/content/details/Neverest/img/logo.jpg"
             },
           "descriptionUrlText":"assets/content/details/Neverest/Neverest_detail.txt",
