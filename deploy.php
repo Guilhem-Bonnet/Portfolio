@@ -20,7 +20,7 @@ $payload = file_get_contents('php://input');
 if (verify_github_webhook($payload, $signature, $secret)) {
     $output = [];
     $return_var = 0;
-    exec('cd /home/u163506341/domains/srvdreamer.fr/public_html/guilhem && git pull 2>&1', $output, $return_var);
+    exec('cd /home/u163506341/domains/srvdreamer.fr/public_html/guilhem && git pull https://github.com/Guilhem-Bonnet/Portfolio.git 2>&1', $output, $return_var);
 
     $command_result = implode("\n", $output);
     
