@@ -10,7 +10,7 @@ function verify_github_webhook($data, $signature, $secret) {
 $payload = file_get_contents('php://input');
 if (verify_github_webhook($payload, $signature, $secret)) {
     // Exécutez git pull
-    exec('cd /chemin/vers/votre/projet && git pull');
+    exec('cd /home/u163506341/domains/srvdreamer.fr/public_html/guilhem && git pull');
     echo "Déployé avec succès";
 } else {
     header('HTTP/1.1 403 Forbidden');
