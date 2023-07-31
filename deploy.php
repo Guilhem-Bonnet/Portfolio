@@ -1,4 +1,8 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 $secret = "cfJzk5^Gjq6jw&yW"; // Créez un secret pour sécuriser votre webhook
 $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
 
