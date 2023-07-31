@@ -1033,6 +1033,7 @@ background-color: #f6f6f6;
 .portfolio-details .portfolio-details-carousel {
   position: relative;
   z-index: 1;
+  
 }
 
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
@@ -1111,6 +1112,12 @@ background-color: #f6f6f6;
     /* Styles pour la vidéo en lecture */
     
   }
+}
+
+.portfolio-details .carousel-item-custom
+{
+  height: 600px; /* Modifiez cette valeur selon vos besoins */
+  object-fit: cover;
 }
 
 

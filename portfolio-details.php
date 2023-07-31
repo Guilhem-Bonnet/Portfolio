@@ -104,12 +104,7 @@ if ($descriptionUrl!=null){
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: iPortfolio - v1.2.1
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+ 
 </head>
 
 <style>
@@ -162,8 +157,7 @@ if ($descriptionUrl!=null){
               $fileTypes = array(
                 'jpg',
                 'png',
-                'webp',
-                'avif'
+                'webp'
               );
               
               // Parcourir les éléments du carousel
@@ -179,8 +173,9 @@ if ($descriptionUrl!=null){
                 if(in_array($fileType, $fileTypes)) {
                   // Imprimer la balise HTML pour l'image
                   echo'<picture>';
-                  echo '<source srcset="' . $newImgSrc . '" type="image/avif">';
-                  echo '<img src="' . $value . '" class="img-fluid carousel-item" alt="' . $key . '">';
+                  echo '<source srcSet="' . $newImgSrc . '" type="image/avif">';
+                  echo '<source srcSet="' . $value . '" type="image/' . $fileType . '">';
+                  echo '<img decoding="async" loading="lazy" src="' . $value . '" class="img-fluid carousel-item carousel-item-custom" alt="' . $key . '">';
                   echo '</picture>';
                 }
                 
