@@ -64,7 +64,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
-      <h1>Bonnet Guilhèm -</h1>
+      <h1>Bonnet Guilhèm @@</h1>
       <p>je suis <span class="typed" data-typed-items="Développeur XR, Chef de Projet, Développeur Web, Game programmer, Auto-Entrepreneur"></span></p>
     </div>
   </section><!-- End Hero -->
