@@ -80,6 +80,15 @@
       "infos": "Petit jeu développé à l'occasion d'un cour sur unity",
       "linkHref": "portfolio-details.php",
       "linkTitle": "More Details"
+    },
+    {
+      "id": "BattleRoyal-RPG",
+      "filter": "game",
+      "imgSrc": "assets/content/details/BattleRoyal-RPG/img/RPG-Pixel-ART-icon.avif",
+      "imgAlt": "",
+      "infos": "Petit battle royal sous console utilisant divers design pattern",
+      "linkHref": "portfolio-details.php",
+      "linkTitle": "More Details"
     }
 
   ],
@@ -289,6 +298,24 @@
           "support": "Desktop",
           "langage": "C# XAML",
           "githubLink":"https://github.com/Guilhem-Bonnet/GameLauncher"
+
+
+
+        },
+        "BattleRoyal-RPG":
+        {
+          "elementCarousel": 
+            {
+              "img": "assets/content/details/BattleRoyal-RPG/img/RPG-Pixel-ART.jpg"
+            },
+          "descriptionUrlText":"assets/content/details/BattleRoyal-RPG/Battle-Royal-RPG_detail.txt",
+          "projectDate": "2023",
+          "category": "Jeux vidéo",
+          "projectName": "BattleRoyal-RPG" ,
+          "developedDuringMy": "Personal time",
+          "support": "Desktop",
+          "langage": "C#",
+          "githubLink":"https://github.com/Guilhem-Bonnet/BattleRoyal-RPG"
 
 
 

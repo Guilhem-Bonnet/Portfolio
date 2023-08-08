@@ -1,2 +1,6 @@
 
 assets/img/portfolio/ARanger/
+
+# Exclude any PSD/AI source
+*.psd
+*.ai
