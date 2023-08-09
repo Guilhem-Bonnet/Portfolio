@@ -1,4 +1,6 @@
 <?php
+require 'assets/vendor/autoload.php';
+
 // Lire le contenu du fichier JSON
 $jsonData = file_get_contents("donnees.json");
 
@@ -69,8 +71,8 @@ try {
 
 $description;
 if ($descriptionUrl!=null){
-  //lis le fichié txt
-  $description=file_get_contents($descriptionUrl);
+  //Ajoute le lien vers le fichier markdown
+  $markdownContent = file_get_contents($descriptionUrl);
 }
 
 ?>
@@ -100,6 +102,12 @@ if ($descriptionUrl!=null){
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-toggle/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-okaidia.min.css" rel="stylesheet"/>
+
+
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -248,29 +256,40 @@ if ($descriptionUrl!=null){
             </div>
           </div>
 
-          <h2><?= $projectName ?> </h2>
+          <input id="theme-toggle" type="checkbox" checked data-toggle="toggle" data-style="ios" data-on="<i class='bi bi-moon-fill'></i>" data-off="<i class='bi bi-sun-fill'></i>" data-onstyle="dark" data-offstyle="light">
+          <script>
+          console.log(document.body.classList);
+          console.log(localStorage.getItem("theme"));
 
-          <?php
-          if (!empty($description)){
-              
-            if (strpos($description, '<') === 0) { //vérifie si le texte est balisé ou non
-              
-              echo strip_tags($description, '<p><br><b><i><u><strong><em><ul><ol><li><a><img><blockquote><pre><code><h1><h2><h3><h4><h5><h6><hr>'); // affiche le contenu de $description dans un paragraphe
-            } else {
-              echo '<p>' . strip_tags($description, '<br>') . '</p>'; // ajoute des balises <p> autour du contenu de $description
+          </script>
+          <div class="markdown">
+
+            <!--<h2><?= $projectName ?> </h2>-->
+
+            <?php
+            if (file_exists($descriptionUrl)) {
+            // Créer une instance de Parsedown
+            $parsedown = new Parsedown();
+
+            // Convertir le contenu Markdown en HTML
+            $htmlContent = $parsedown->text($markdownContent);
+
+            // Afficher le contenu HTML
+            echo $htmlContent;
+            }
+            else {
+              echo "Fichier non trouvé!";
             }
 
-          }
-          
-
-          if(!empty($articles)){
-            echo"<h2>Articles</h2>";
-            foreach($element["articles"] as $key => $value){
-              echo '<a href="' . $value['url'] . '" target="_blank">' . $value['titre'] . '</a><br/>';
+            /*if(!empty($articles)){
+              echo"<h2>Articles</h2>";
+              foreach($element["articles"] as $key => $value){
+                echo '<a href="' . $value['url'] . '" target="_blank">' . $value['titre'] . '</a><br/>';
+              }
             }
-          }
-          ?>
-          
+            */
+            ?>
+          </div>
         </div>
     
       </div>
@@ -298,9 +317,29 @@ if ($descriptionUrl!=null){
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-
+  <script src="assets/vendor/bootstrap-toggle/js/bootstrap-toggle.min.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+<!-- Prism Core -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+
+<!-- Languages -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-markup-templating.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-javascript.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-css.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-php.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-python.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-c.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-cpp.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-csharp.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-sql.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-bash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-json.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-markdown.min.js"></script>
+
+
 
 </body>
 

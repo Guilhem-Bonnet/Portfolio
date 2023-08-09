@@ -1119,6 +1119,189 @@ background-color: #f6f6f6;
   height: 600px; /* Modifiez cette valeur selon vos besoins */
   object-fit: cover;
 }
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20px; }
+.toggle.ios .toggle-handle { border-radius: 20px; }
+.toggle-dark {
+  background-color: #343a40 !important; /* Couleur dark de bootstrap */
+  border-color: #343a40 !important;
+}
+.toggle-dark .toggle-handle {
+  border-color: #343a40 !important;
+}
+
+
+/*--------------------------------------------------------------
+# Markdown CSS
+--------------------------------------------------------------*/
+
+
+.markdown {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+  background-color: #ffffff;
+  padding: 45px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
+  padding-top: 10px;
+}
+
+.markdown h1 {
+  font-size: 32px;
+}
+
+.markdown h2 {
+  font-size: 24px;
+}
+
+.markdown h3 {
+  font-size: 20px;
+}
+
+.markdown h4 {
+  font-size: 16px;
+}
+
+.markdown h5 {
+  font-size: 14px;
+}
+
+.markdown h6 {
+  font-size: 12px;
+}
+
+.markdown p {
+  margin-bottom: 16px;
+}
+
+.markdown strong {
+  font-weight: 600;
+}
+
+.markdown em {
+  font-style: italic;
+}
+
+.markdown ul, .markdown ol {
+  padding-left: 2em;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown ul li, .markdown ol li {
+  margin-bottom: 8px;
+}
+
+.markdown blockquote {
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.markdown pre {
+  padding: 16px;
+  overflow: auto;
+  border-radius: 3px;
+  font-size: 85%;
+}
+
+.markdown code {
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+  font-size: 85%;
+}
+
+.markdown pre code {
+  padding: 0;
+  font-size: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+.markdown a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.markdown a:hover {
+  text-decoration: underline;
+}
+
+.markdown img {
+  max-width: 100%;
+  border-style: none;
+}
+
+.markdown table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.markdown table th {
+  font-weight: 600;
+}
+
+.markdown table td, .markdown table th {
+  padding: 8px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.markdown table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+body.dark-theme .markdown {
+  background-color: #1c1c1c;
+  color: #c9cacc;
+}
+
+body.dark-theme .markdown h1,
+body.dark-theme .markdown h2,
+body.dark-theme .markdown h3,
+body.dark-theme .markdown h4,
+body.dark-theme .markdown h5,
+body.dark-theme .markdown h6 {
+  color: white;
+  border-color: #333;
+}
+
+body.dark-theme .markdown blockquote {
+  color: #929496;
+  border-left-color: #333;
+}
+
+body.dark-theme .markdown pre[class*="language-"] {
+  background-color: #2f2f2f;
+}
+
+body.dark-theme .markdown code[class*="language-"] {
+  background-color: transparent;
+}
+
+
+body.dark-theme .markdown a {
+  color: #5da9e9;
+}
+
+body.dark-theme .markdown table td,
+body.dark-theme .markdown table th {
+  border: 1px solid #333;
+}
+
+body.dark-theme .markdown table tr:nth-child(2n) {
+  background-color: #2a2a2a;
+}
 
 
 

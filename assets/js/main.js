@@ -175,6 +175,29 @@
     easing: "ease-in-out-back"
   });
 
+  // Theme switcher
+  $(document).ready(function() {
+    const currentTheme = localStorage.getItem("theme");
+    if (currentTheme === "dark") {
+        document.body.classList.add("dark-theme");
+        $('#theme-toggle').prop('checked', true);
+    } else {
+        document.body.classList.remove("dark-theme");
+        $('#theme-toggle').prop('checked', false);
+    }
+
+    $('#theme-toggle').change(function() {
+        if ($(this).prop('checked')) {
+            document.body.classList.add("dark-theme");
+            localStorage.setItem("theme", "dark");
+        } else {
+            document.body.classList.remove("dark-theme");
+            localStorage.setItem("theme", "light");
+        }
+    });
+  });
+
+
   /*jQuery(document).ready(function() {
     // Stockez la référence de l'élément '.carousel'
     var $carousel = $('.owl-carousel');

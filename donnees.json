@@ -108,7 +108,7 @@
               "img6": "assets/content/details/FlipperVR/img/Talent_d-or.jpg",
               "video2": "https://www.youtube.com/embed/ODPbgvFtuOs"
             },
-          "descriptionUrlText":"assets/content/details/FlipperVR/FlipperVR_detail.txt",
+          "descriptionUrlText":"assets/content/details/FlipperVR/FlipperVR_detail.md",
           "projectUrl":"https://www.flipper-vr.com",
           "projectDate": "2019 to 2022",
           "category": "Application VR",
@@ -133,7 +133,7 @@
               "img7": "assets/content/details/AventureEDF/img/20210702_193847.jpg",
               "video": "https://www.youtube.com/embed/wKXIbS2-qOI?start=26"
             },
-          "descriptionUrlText":"assets/content/details/AventureEDF/AventureEDF_detail.txt",
+          "descriptionUrlText":"assets/content/details/AventureEDF/AventureEDF_detail.md",
           "articles":
             { 
               "article1":{
@@ -176,7 +176,7 @@
               "img": "assets/content/details/Portfolio/img/Portfolio.png",
               "img1": "assets/content/details/Portfolio/img/scriptPortfolio.png"
             },
-          "descriptionUrlText":"assets/content/details/Portfolio/Portfolio_detail.txt",
+          "descriptionUrlText":"assets/content/details/Portfolio/Portfolio_detail.md",
           "projectUrl":"https://www.srvdreamer.fr",
           "projectDate": "2022 to 2023",
           "category": "Web",
@@ -198,7 +198,7 @@
               "video":"https://www.youtube.com/embed/1t-Cjn1LHiY"
               
             },
-          "descriptionUrlText": "assets/content/details/Sysmotruck/Sysmotruck_detail.txt",
+          "descriptionUrlText": "assets/content/details/Sysmotruck/Sysmotruck_detail.md",
           "projectUrl":"https://www.lourdes-infotourisme.com/offres/maison-de-la-connaissance-du-risque-sismique-lourdes-fr-3152682/",
           "projectDate": "2021 to 2022",
           "category": "Application VR",
@@ -218,7 +218,7 @@
               "img": "assets/content/details/TowerDefence/img/Menu.png",
               "img1": "assets/content/details/TowerDefence/img/Game.png"
             },
-          "descriptionUrlText":"assets/content/details/TowerDefence/TowerDefence_detail.txt",
+          "descriptionUrlText":"assets/content/details/TowerDefence/TowerDefence_detail.md",
           "projectDate": "2022 to 2023",
           "category": "Jeux vidéo",
           "projectName": "TowerDefence" ,
@@ -237,7 +237,7 @@
               "video": "https://www.youtube.com/embed/P2epnNMB7-c",
               "img": "assets/content/details/Neverest/img/logo.jpg"
             },
-          "descriptionUrlText":"assets/content/details/Neverest/Neverest_detail.txt",
+          "descriptionUrlText":"assets/content/details/Neverest/Neverest_detail.md",
           "projectDate": "2022 to 2023",
           "category": "Jeux vidéo",
           "projectName": "Neverest: Fight Your Demons" ,
@@ -256,7 +256,7 @@
               "img": "assets/content/details/Wolfpurgis/img/Loup_Garou_V2.jpg",
               "img1": "assets/content/details/Wolfpurgis/img/tease.png"
             },
-          "descriptionUrlText":"assets/content/details/Wolfpurgis/Wolfpurgis_detail.txt",
+          "descriptionUrlText":"assets/content/details/Wolfpurgis/Wolfpurgis_detail.md",
           "projectDate": "2022 to 2023",
           "category": "Jeux vidéo",
           "projectName": "Wolfpurgis" ,
@@ -273,7 +273,7 @@
             {
               "img": "assets/content/details/APIWeb/img/APIWeb.png"
             },
-          "descriptionUrlText":"assets/content/details/APIWeb/APIWeb_detail.txt", 
+          "descriptionUrlText":"assets/content/details/APIWeb/APIWeb_detail.md", 
           "projectDate": "2022 to 2023",
           "category": "Web",
           "projectName": "API Web" ,
@@ -290,7 +290,7 @@
               "img": "assets/content/details/Launcher/img/GameLauncher1.png",
               "img2": "assets/content/details/Launcher/img/codeGameLauncher.png"
             },
-          "descriptionUrlText":"assets/content/details/Launcher/Launcher_detail.txt",
+          "descriptionUrlText":"assets/content/details/Launcher/Launcher_detail.md",
           "projectDate": "2022 to 2023",
           "category": "Application",
           "projectName": "Launcher" ,
@@ -308,7 +308,7 @@
             {
               "img": "assets/content/details/BattleRoyal-RPG/img/RPG-Pixel-ART.jpg"
             },
-          "descriptionUrlText":"assets/content/details/BattleRoyal-RPG/Battle-Royal-RPG_detail.txt",
+          "descriptionUrlText":"assets/content/details/BattleRoyal-RPG/Battle-Royal-RPG_detail.md",
           "projectDate": "2023",
           "category": "Jeux vidéo",
           "projectName": "BattleRoyal-RPG" ,
