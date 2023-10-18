@@ -234,8 +234,12 @@
         {
           "elementCarousel": 
             {
+              "img": "assets/content/details/Neverest/img/logo.webp",
               "video": "https://www.youtube.com/embed/P2epnNMB7-c",
-              "img": "assets/content/details/Neverest/img/logo.jpg"
+              "img2": "assets/content/details/Neverest/img/Chambre.webp",
+              "img3": "assets/content/details/Neverest/img/Escalier.webp",
+              "img4": "assets/content/details/Neverest/img/SalleAManger.webp",
+              "img5": "assets/content/details/Neverest/img/Salon.webp"
             },
           "descriptionUrlText":"assets/content/details/Neverest/Neverest_detail.md",
           "projectDate": "2022 to 2023",
