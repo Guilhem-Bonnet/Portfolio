@@ -110,11 +110,11 @@
             },
           "descriptionUrlText":"assets/content/details/FlipperVR/FlipperVR_detail.md",
           "projectUrl":"https://www.flipper-vr.com",
-          "projectDate": "2019 to 2022",
+          "projectDate": "2019 à 2022",
           "category": "Application VR",
           "projectName": "FlipperVR" ,
           "developedDuringMy": "Alternance",
-          "support": "Desktop, VR",
+          "support": "PC, VR",
           "langage": "C#, C",
           "gameEngine":"Unity",
           "engineVersion":"2019.5.1f",
@@ -130,7 +130,6 @@
               "img4": "assets/content/details/AventureEDF/img/20210702_193752.jpg",
               "img5": "assets/content/details/AventureEDF/img/20210702_193807.jpg",
               "img6": "assets/content/details/AventureEDF/img/20210702_193839.jpg",
-              "img7": "assets/content/details/AventureEDF/img/20210702_193847.jpg",
               "video": "https://www.youtube.com/embed/wKXIbS2-qOI?start=26"
             },
           "descriptionUrlText":"assets/content/details/AventureEDF/AventureEDF_detail.md",
@@ -161,12 +160,12 @@
                 "url":"https://www.lasemainedespyrenees.fr/pragneres-une-visite-version-4-0-de-la-centrale-hydroelectrique/"
               }
           },
-          "projectDate": "2021 to 2022",
+          "projectDate": "2021 à 2022",
           "projectUrl":"https://www.valleesdegavarnie.com/sit/centrale-hydroelectrique-edf-de-pragneres/",
           "category": "Application VR",
           "projectName": "EDF Aventure" ,
           "developedDuringMy": "Alternance",
-          "support": "Desktop, VR autonome (pico)",
+          "support": "PC, VR autonome (pico)",
           "langage": "C#"
         },
       "Portfolio":
@@ -178,11 +177,11 @@
             },
           "descriptionUrlText":"assets/content/details/Portfolio/Portfolio_detail.md",
           "projectUrl":"https://www.srvdreamer.fr",
-          "projectDate": "2022 to 2023",
+          "projectDate": "2022 à 2023",
           "category": "Web",
           "projectName": "Portfolio" ,
           "developedDuringMy": "Personal time",
-          "support": "Desktop, Mobile",
+          "support": "PC, Mobile",
           "langage": "PHP, HTML, CSS, JSON",
           "githubLink": "https://github.com/Guilhem-Bonnet/Portfolio"
 
@@ -200,11 +199,11 @@
             },
           "descriptionUrlText": "assets/content/details/Sysmotruck/Sysmotruck_detail.md",
           "projectUrl":"https://www.lourdes-infotourisme.com/offres/maison-de-la-connaissance-du-risque-sismique-lourdes-fr-3152682/",
-          "projectDate": "2021 to 2022",
+          "projectDate": "2021 à 2022",
           "category": "Application VR",
           "projectName": "Sysmotruck" ,
           "developedDuringMy": "Alternance",
-          "support": "Desktop, VR",
+          "support": "PC, VR",
           "langage": "C# ,PHP , HTML, CSS, JSON",
           "gameEngine":"Unity",
           "engineVersion":"2021.2.18f1",
@@ -219,11 +218,11 @@
               "img1": "assets/content/details/TowerDefence/img/Game.png"
             },
           "descriptionUrlText":"assets/content/details/TowerDefence/TowerDefence_detail.md",
-          "projectDate": "2022 to 2023",
+          "projectDate": "2022 à 2023",
           "category": "Jeux vidéo",
           "projectName": "TowerDefence" ,
-          "developedDuringMy": "Courses",
-          "support": "Desktop",
+          "developedDuringMy": "Etudes",
+          "support": "PC",
           "langage": "C#",
           "gameEngine":"Unity",
           "engineVersion":"2020.3.25f1",
@@ -242,11 +241,11 @@
               "img5": "assets/content/details/Neverest/img/Salon.webp"
             },
           "descriptionUrlText":"assets/content/details/Neverest/Neverest_detail.md",
-          "projectDate": "2022 to 2023",
+          "projectDate": "2022 à 2023",
           "category": "Jeux vidéo",
           "projectName": "Neverest: Fight Your Demons" ,
-          "developedDuringMy": "Courses",
-          "support": "Desktop",
+          "developedDuringMy": "Etudes",
+          "support": "PC",
           "langage": "C#",
           "gameEngine":"Unity",
           "engineVersion":"2020.3.18f1",
@@ -261,11 +260,11 @@
               "img1": "assets/content/details/Wolfpurgis/img/tease.png"
             },
           "descriptionUrlText":"assets/content/details/Wolfpurgis/Wolfpurgis_detail.md",
-          "projectDate": "2022 to 2023",
+          "projectDate": "2022 à 2023",
           "category": "Jeux vidéo",
           "projectName": "Wolfpurgis" ,
           "developedDuringMy": "Personal time",
-          "support": "Desktop",
+          "support": "PC",
           "langage": "C++",
           "gameEngine":"Unreal",
           "engineVersion":"5"
@@ -278,12 +277,13 @@
               "img": "assets/content/details/APIWeb/img/APIWeb.png"
             },
           "descriptionUrlText":"assets/content/details/APIWeb/APIWeb_detail.md", 
-          "projectDate": "2022 to 2023",
+          "projectDate": "2022 à 2023",
           "category": "Web",
           "projectName": "API Web" ,
           "developedDuringMy": "Personal time",
-          "support": "Desktop",
-          "langage": "C# JSON"
+          "support": "PC",
+          "langage": "C# JSON",
+          "githubLink": "https://github.com/Guilhem-Bonnet/WebAPI"
 
 
         },
@@ -295,11 +295,11 @@
               "img2": "assets/content/details/Launcher/img/codeGameLauncher.png"
             },
           "descriptionUrlText":"assets/content/details/Launcher/Launcher_detail.md",
-          "projectDate": "2022 to 2023",
+          "projectDate": "2022 à 2023",
           "category": "Application",
           "projectName": "Launcher" ,
           "developedDuringMy": "Personal time",
-          "support": "Desktop",
+          "support": "PC",
           "langage": "C# XAML",
           "githubLink":"https://github.com/Guilhem-Bonnet/GameLauncher"
 
@@ -317,7 +317,7 @@
           "category": "Jeux vidéo",
           "projectName": "BattleRoyal-RPG" ,
           "developedDuringMy": "Personal time",
-          "support": "Desktop",
+          "support": "PC",
           "langage": "C#",
           "githubLink":"https://github.com/Guilhem-Bonnet/BattleRoyal-RPG"
 

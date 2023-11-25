@@ -84,10 +84,12 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <picture>
+            <!--
+              <picture>
               <source type ="image/avif" srcset="assets/img/me-2.avif">
               <img src="assets/img/me-2.jpg" class="img-fluid img-profil" border-radius="10%" alt="">
             </picture>
+            !-->
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
 
@@ -95,8 +97,7 @@
               <div class="col-lg-6">
                 <ul>
                   <li><i class="icofont-rounded-right"></i> <strong>Naissance:</strong> 30 Septembre 1998</li>
-                  <!--<li><i class="icofont-rounded-right"></i> <strong>Site Web:</strong> www.example.com</li>-->
-                  <li><i class="icofont-rounded-right"></i> <strong>Ville:</strong> Toulouse : France</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Ville:</strong> Montréal : France</li>
                 </ul>
               </div>
               <div class="col-lg-6">
@@ -109,11 +110,12 @@
                 </ul>
               </div>
             </div>
-            <!--<p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-            </p>-->
           </div>
+          <ul>
+          <li><p> <strong>Pré-mémoire</strong> | problématique : Monté en qualité d'un service IT dans le domaine de la réalité virtuelle dans une PME</p></li>
+          <li><a href="assets/content/Memoire/BONNET-JALABERT_Guilhèm_Prémémoire2021.pdf" class="btn btn-info" target="_blank">Lire mon prémémoire </a> <a href="assets/content/Memoire/BONNET-JALABERT_Guilhèm_Annexes2021.pdf" class="btn btn-info" target="_blank">Annexes</a></li>
+          </ul>
+          
         </div>
 
       </div>
@@ -215,17 +217,17 @@
                   </li>
                   <ul>
                     <li>
-                      <p>C# <br> <span class="badge badge-primary badge-pill competences-span-5xp">+5xp</span></p>
+                      <p>C# <br> <span class="badge badge-primary badge-pill competences-span-5xp">+5 ans</span></p>
 
                     </li>
                     <li>
-                      <p>C++ <br>  <span class="badge badge-primary badge-pill competences-span-1xp">+1xp</span></p>
+                      <p>C++ <br>  <span class="badge badge-primary badge-pill competences-span-1xp">+1 ans</span></p>
                     </li>
                     <li>
-                      <p>C <br>  <span class="badge badge-primary badge-pill competences-span-1xp">+1xp</span></p>
+                      <p>C <br>  <span class="badge badge-primary badge-pill competences-span-1xp">+1 ans</span></p>
                     </li>
                     <li>
-                      <p>JAVA <br> <span class="badge badge-primary badge-pill competences-span-1xp">-1xp</span></p>
+                      <p>JAVA <br></p>
                     </li>
                   </ul>
                 </ul>
@@ -238,13 +240,13 @@
                   </li>
                   <ul>
                     <li>
-                      <p>HTML <br> <span class="badge badge-primary badge-pill competences-span-5xp">+5xp</span></p>
+                      <p>HTML <br> <span class="badge badge-primary badge-pill competences-span-5xp">+5 ans</span></p>
                     </li>
                     <li>
-                      <p>CSS <br> <span class="badge badge-primary badge-pill competences-span-3xp">+4xp</span></p>
+                      <p>CSS <br> <span class="badge badge-primary badge-pill competences-span-3xp">+4 ans</span></p>
                     </li>
                     <li>
-                      <p>PHP <br> <span class="badge badge-primary badge-pill competences-span-1xp">+2xp</span></p>
+                      <p>PHP <br> <span class="badge badge-primary badge-pill competences-span-1xp">+2 ans</span></p>
                     </li>
                   </ul>
                 </ul>
@@ -257,10 +259,10 @@
                   </li>
                   <ul>
                     <li>
-                      <p>React Native <br> <span class="badge badge-primary badge-pill competences-span-1xp">-1xp</span></p>
+                      <p>React Native <br></p>
                     </li>
                     <li>
-                      <p>Flutter / Dart <br> <span class="badge badge-primary badge-pill competences-span-1xp">-1xp</span></p>
+                      <p>Flutter / Dart <br></p>
                     </li>
                   </ul>
                 </ul>
@@ -273,13 +275,13 @@
                   </li>
                   <ul>
                     <li>
-                      <p>SQL <br> <span class="badge badge-primary badge-pill competences-span-3xp">+4xp</span></p>
+                      <p>SQL <br> <span class="badge badge-primary badge-pill competences-span-3xp">+4 ans</span></p>
                     </li>
                     <li>
-                      <p>NO SQL <br> <span class="badge badge-primary badge-pill competences-span-1xp">+1xp</span></p>
+                      <p>NO SQL <br> <span class="badge badge-primary badge-pill competences-span-1xp">+1 ans</span></p>
                     </li>
                     <li>
-                      <p>SQLI <br> <span class="badge badge-primary badge-pill competences-span-1xp">-1xp</span></p>
+                      <p>SQLI <br></p>
                     </li>
                   </ul>
                 </ul>
@@ -292,13 +294,13 @@
                   </li>
                   <ul>
                     <li>
-                      <p>JSON <br> <span class="badge badge-primary badge-pill competences-span-3xp">+4xp</span></p>
+                      <p>JSON <br> <span class="badge badge-primary badge-pill competences-span-3xp">+4 ans</span></p>
                     </li>
                     <li>
-                      <p>XML <br> <span class="badge badge-primary badge-pill competences-span-1xp">+1xp</span></p>
+                      <p>XML <br> <span class="badge badge-primary badge-pill competences-span-1xp">+1 ans</span></p>
                     </li>
                     <li>
-                      <p>BATCH <br> <span class="badge badge-primary badge-pill competences-span-1xp">-1xp</span></p>
+                      <p>BATCH <br></p>
                     </li>
                   </ul>
                 </ul>
@@ -502,11 +504,12 @@
     <section id="resume" class="resume">
       <div class="container">
         <div class="section-title">
-          <h2>Resumé</h2>
+          <h2>Curriculum vitae</h2>
         </div>
 
         <div>
           <p>Bien que j'ai un profil axé XR je suis ouvert au challenge technique divers et je suis prêt à m'investir dans toutes les technologies</p>
+          <a href="assets/content/CV/Curriculum_vitae-Guilhem_Bonnet.pdf" class="btn btn-info" target="_blank">Télécharger mon CV</a>
         </div>
 
         <div class="row">
