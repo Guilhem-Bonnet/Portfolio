@@ -511,7 +511,7 @@
           <p>Bien que j'ai un profil axé XR je suis ouvert au challenge technique divers et je suis prêt à m'investir dans toutes les technologies</p>
           <a href="assets/content/CV/Curriculum_vitae-Guilhem_Bonnet.pdf" class="btn btn-info" target="_blank">Télécharger mon CV</a>
         </div>
-
+<!--
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Sommaire</h3>
@@ -632,8 +632,9 @@
             </div>
           </div>
         </div>
-
+        -->
       </div>
+      
     </section><!-- End Resume Section -->
     
     <!-- ======= Hobbies Section ======= -->
